@@ -1,8 +1,8 @@
 remote_theme: jekyll/minima
 
 plugins:
-	- jekyll-feed
-	- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
-	skin: dark
+  skin: dark

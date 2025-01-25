@@ -1,6 +1,6 @@
 ---
 title: "The title"
-date: 2024-06-06
+date: 2025-01
 category: journal
 tags: 
   - tag 1

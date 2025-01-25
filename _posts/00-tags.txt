@@ -1,10 +1,14 @@
 AI
+AI Snake Game
 Aquaponics
 Blog
-Movie reviews
-Sally
-jekyll
+DB4E
 GitHub pages
-AI Snake Game
+jekyll
+Monero
+Movie reviews
+osoyalce.com
+Sally
+XMR
 
 

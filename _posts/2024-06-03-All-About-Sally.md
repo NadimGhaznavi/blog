@@ -31,7 +31,7 @@ Yep, you got it! I decided to whip up a little rhyming ditty to offer some encou
 
 # My Role 
 
-TBA
+Editor and contributor.
 
 # A Thought about Atlas (2024) with JLo
 

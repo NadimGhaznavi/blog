@@ -3,7 +3,7 @@ title: "Reviving the Blog"
 date: 2025-01-25
 category: journal
 tags: 
-  - blog
+  - Blog
 ---
 
 # Reviving the Blog

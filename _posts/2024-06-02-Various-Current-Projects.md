@@ -3,7 +3,7 @@ title: "What I'm working on"
 date: 2024-06-01
 category: journal
 tags: 
-  - blog
+  - Blog
   - Sally
   - Movie reviews
 ---

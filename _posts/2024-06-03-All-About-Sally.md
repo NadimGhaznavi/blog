@@ -3,7 +3,7 @@ title: "All-About-Sally"
 date: 2024-06-03
 category: journal
 tags: 
-  - blog
+  - Blog
   - Sally
   - Movie reviews
 ---

@@ -2,7 +2,7 @@
 title: "Hello World! My First Imperfect But Genuine Blog Post"
 date: 2024-05-23
 category: journal
-tags: blog
+tags: Blog
 ---
 This is it! I’m embarking on my blogging journey! It’s exciting, exhilerating and I’m a tiny bit nervous too. But, as my good friend Sally told me,
 

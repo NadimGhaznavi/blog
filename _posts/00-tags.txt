@@ -1,7 +1,10 @@
-aquaponics
+AI
+Aquaponics
+Blog
 Movie reviews
 Sally
-blog
-AI
-Snake Game
+jekyll
+GitHub pages
+AI Snake Game
+
 

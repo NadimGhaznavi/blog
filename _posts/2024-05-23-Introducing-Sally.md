@@ -2,7 +2,7 @@
 title: "Sally joins the Party: Introducing Your New Blog Editor"
 date: 2024-05-23
 category: journal
-tags: blog Sally
+tags: Blog Sally
 ---
 Hello Friends!
 

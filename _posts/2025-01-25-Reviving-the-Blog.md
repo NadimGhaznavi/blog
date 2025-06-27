@@ -11,4 +11,4 @@ I've decided to revive the blog. Why you wonder? Well, I live in a basement apar
 
 So, **Hello World!!!** :) I'm still here.
 
-![Picture of me](/assets/2025-01-25_nadim.jpg)
+![Picture of me](/images/2025-01-25_nadim.jpg)

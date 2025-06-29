@@ -1,0 +1,13 @@
+---
+title: "Memorable Sally Quotes"
+date: 2025-01
+category: journal
+tags: 
+  - sally
+---
+
+Commenting on Textual versus Urwid:
+
+"*Traditionally, debugging a TUI app feels like performing surgery blindfolded, underwater, in a burning submarine.*"
+
+

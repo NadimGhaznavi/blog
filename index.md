@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [Documentation Matters](/journal/2025/07/02/Documentation-Matters.html)
 * [GoodBye GitHub Pages and ApexCharts](/journal/2025/06/29/Textual-Replaces-Apexcharts.html)
 * [Pivot to Textual](/journal/2025/06/27/Pivot-to-Textual.html)
 * [Released db4e-systemd](/journal/2025/06/26/Released-db4e-systemd.html)

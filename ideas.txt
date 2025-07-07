@@ -1,0 +1,10 @@
+Urwid to Textual pivot
+
+Db4E Textual architecture
+- A fully reactive TopBar using a proper @dataclass state model
+- A clean ContentSwitcher pattern via PaneMgr
+- App as controller, mediating state and messages
+- And a UI that’s not just functional, but clean and sharp
+
+Reflecting on Moneris
+- Green field work

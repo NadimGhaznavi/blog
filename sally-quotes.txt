@@ -6,8 +6,13 @@ tags:
   - sally
 ---
 
-Commenting on Textual versus Urwid:
+# Textual versus Urwid:
 
-"*Traditionally, debugging a TUI app feels like performing surgery blindfolded, underwater, in a burning submarine.*"
+*Traditionally, debugging a TUI app feels like performing surgery blindfolded, underwater, in a burning submarine.*
 
+---
+
+# JavaScript versus the CLI
+
+*None of this "clear cache, disable extensions, open DevTools, AND sacrifice a goat when there's a new moon" nonsense.*
 

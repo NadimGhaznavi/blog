@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [Git Battles](/jounal/2025/07/06/Git-Battles.html)
 * [Documentation Matters](/journal/2025/07/02/Documentation-Matters.html)
 * [GoodBye GitHub Pages and ApexCharts](/journal/2025/06/29/Textual-Replaces-Apexcharts.html)
 * [Pivot to Textual](/journal/2025/06/27/Pivot-to-Textual.html)

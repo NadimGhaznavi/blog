@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [Why I Build Db4E](/journal/2025/07/09/Why-I-Built-Db4E.html)
 * [Git Battles](/jounal/2025/07/06/Git-Battles.html)
 * [Documentation Matters](/journal/2025/07/02/Documentation-Matters.html)
 * [GoodBye GitHub Pages and ApexCharts](/journal/2025/06/29/Textual-Replaces-Apexcharts.html)

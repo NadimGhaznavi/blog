@@ -8,3 +8,14 @@ Db4E Textual architecture
 
 Reflecting on Moneris
 - Green field work
+
+Why I Replaced 200 Magic Strings with Constants (And Never Looked Back)
+
+Crypto vs. Mainstream Finance
+- Who are the real crooks
+- Offshore laundering
+- Tax "avoidance"
+- No touch trading systems
+- Ever increasing consumer banking fees
+
+“What is Db4E and why I built it.”

@@ -1,6 +1,6 @@
 ---
 title: "Where'd They Go? Welcoming 17 Racoon Tiger Shrimp to the Tank"
-date: 2025-01
+date: 2025-07-29
 category: journal
 tags: 
   - Aquaponics

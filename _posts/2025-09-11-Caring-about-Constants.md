@@ -56,6 +56,8 @@ form_data = {
     ELEMENT_TYPE_FIELD: MONEROD_REMOTE_FIELD,
     ELEMENT_FIELD: self.monerod,
 }
+```
+
 ---
 
 # Issues with Magic Strings
@@ -82,7 +84,7 @@ I started another refactoring — not to eliminate magic strings, but to organiz
 
 I use this `ConstGroup.py`. It allows me to specify the data type of a constant in the constant file, keeping things clean and readable.
 
-```
+```python
 class MetaConst(type):
     """Metaclass that collects public attributes into a dictionary-like mapping."""
     def __new__(mcs, name, bases, namespace):
@@ -123,7 +125,7 @@ class ConstGroup(metaclass=MetaConst):
 
 Here are some snippets from the constants files I currently use:
 
-```
+```python
 from db4e.Modules.ConstGroup import ConstGroup
 
 class DField(ConstGroup):
@@ -135,7 +137,7 @@ class DField(ConstGroup):
     DATA_DIR : str = "data_dir"
 ```
 
-```
+```python
 from db4e.Modules.ConstGroup import ConstGroup
 from db4e.Constants.DField import DField
 

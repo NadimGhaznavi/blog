@@ -14,6 +14,17 @@ This post is about using constants in your code. Why it matters, what the benefi
 
 I didn’t think much about constants. Like most projects, I leaned heavily on magic strings. They were quick, convenient, and everywhere.
 
+```python
+form_data = {
+    "name": "Update Operation",
+    "to_module": "DeplMgr",
+    "to_method": "post_job","
+    "op": "update",
+    "element_type": "monerod_remote",
+    "element": self.monerod,
+}
+```
+
 The term *magic string* refers to a string literal that is hardcoded directly into the application's source code and has a significant impact on the program's behavior or logic. The term "magic" implies that the string's purpose or meaning might not be immediately clear to someone reading the code, as its significance is not explicitly defined or explained.
 
 ---
@@ -36,6 +47,15 @@ Eventually, I realized that magic strings were a *bad thing* and then came the d
 
 Towards the end my wrists started to hurt and I was scared that *carpal tunnel syndrome* was creeping in. Then I realized it was because I was constantly using the *shift* key since my constants were all uppercase. When I switched to using the *caps lock* key, things got a lot better.
 
+```python
+form_data = {
+    NAME_FIELD: UPDATE_OPERATION_LABEL,
+    TO_MODULE_FIELD: DEPLOYMENT_MGR_DEFAULT,
+    TO_METHOD_FIELD: POST_JOB_FIELD,
+    OP_FIELD: UPDATE_FIELD,
+    ELEMENT_TYPE_FIELD: MONEROD_REMOTE_FIELD,
+    ELEMENT_FIELD: self.monerod,
+}
 ---
 
 # Issues with Magic Strings
@@ -166,8 +186,9 @@ Not only did my code look better, but it was clearerL `DStatus.ERROR`, `DDef.MON
 
 My new solution also supported cross referencing. You probably noticed the `DDir.DATA` is an alias for `DField.DATA_DIR`. This not only provides an alias, but also helps to clarify the code itself. For example
 
-```
+```python
 form_data = {
+    DField.NAME: DLabel.UPDATE_OPERATION,
     DField.TO_MODULE: DModule.DEPLOYMENT_MGR,
     DField.TO_METHOD: DMethod.POST_JOB,
     DField.OP: DJob.UPDATE,

@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [The Power of Pictures](/journal/2025/09/19/The-Power-of-Pictures.html)
 * [Caring About Constants](/journal/2025/09/11/Caring-about-Constants.html)
 * [Welcoming Racoon Tiger Shrimp to the Tank](/journal/2025/07/29/Racoon-Tiger-Shrimp.html)
 * [Why I Build Db4E](/journal/2025/07/09/Why-I-Built-Db4E.html)

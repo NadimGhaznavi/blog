@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [AI Snake Lab](/journal/2025/10/16/AI-Snake-Lab.html)
 * [The Power of Pictures](/journal/2025/09/19/The-Power-of-Pictures.html)
 * [Caring About Constants](/journal/2025/09/11/Caring-about-Constants.html)
 * [Welcoming Racoon Tiger Shrimp to the Tank](/journal/2025/07/29/Racoon-Tiger-Shrimp.html)

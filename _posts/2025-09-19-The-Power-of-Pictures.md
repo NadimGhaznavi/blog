@@ -17,7 +17,7 @@ You know that saying, *"A picture is worth a thousand words."*? In programming, 
 
 # The Problem
 
-This blog post comes out of my current project, [Db4E](https://db4e.osoyalce.com/), the *a Monero mining dashboard for deployment, operation and real-time analytics*. The project was humming along, progress was good, then a strange bug appeared: When I queried my database cache for a list of *P2Pool deployments* I was getting duplicates in the list. This was particularly puzzling because the list was constructed from a dictionary, using a `values()` call. It shouldn't be possible to get two of the same values, but there they were.
+This blog post comes out of my current project, [Db4E](https://db4e.osoyalce.com/), a *Monero mining dashboard for deployment, operation and real-time analytics*. The project was humming along, progress was good, then a strange bug appeared: When I queried my database cache for a list of *P2Pool deployments* I was getting duplicates in the list. This was particularly puzzling because the list was constructed from a dictionary, using a `values()` call. It shouldn't be possible to get two of the same values, but there they were.
 
 ---
 

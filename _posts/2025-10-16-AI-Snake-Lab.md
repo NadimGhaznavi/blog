@@ -12,12 +12,11 @@ tags:
   - Textual
 ---
 
-# 🐍 AI Snake Lab
+![AI Snake Lab](/images/2025-10-16-ai-snake-lab.png)
 
 ---
 
-![AI Snake Lab](/images/2025-10-16-ai-snake-lab.png)
-# 📝 Introduction
+# 🐍 Introduction
 
 **AI Snake Lab** is an interactive reinforcement learning sandbox for experimenting with AI agents in a classic Snake Game environment — featuring a live Textual TUI interface, flexible replay memory database, and modular model definitions.
 

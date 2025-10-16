@@ -16,7 +16,7 @@ tags:
 
 ---
 
-![AI Snake Lab](/images/ai-snake-lab.png)
+![AI Snake Lab](/images/2025-10-16-ai-snake-lab.png)
 # 📝 Introduction
 
 **AI Snake Lab** is an interactive reinforcement learning sandbox for experimenting with AI agents in a classic Snake Game environment — featuring a live Textual TUI interface, flexible replay memory database, and modular model definitions.
@@ -71,11 +71,11 @@ The *Epsilon N* class, inspired by Richard Sutton's [The Bitter Lesson](http://w
 
 The screenshot below shows the *Highscores* plot with the traditional, single instance *Epsilon Greedy* algorithm and with [Dynamic Training](#dynamic-training) enabled. The single-instance epsilon algorithm quickly converges but shows uneven progress. The abrupt jumps in the high score line indicate that exploration declines before the AI fully masters each stage of play.
 
-![Traditional Epsilon Greedy](/images/highscores-epsilon.png)
+![Traditional Epsilon Greedy](/images/2025-10-16-highscores-epsilon.png)
 
 The next screenshot shows the *Highscores* plot without [Dynamic Training](#dynamic-training) enabled and with the *Epsilon N* being used. By maintaining a separate epsilon for each score level, *Epsilon N* sustains exploration locally. This results in a smoother, more linear high-score curve as the AI consolidates learning at each stage before progressing.
 
-![Epsilon N](/images/highscores-epsilon-n.png)
+![Epsilon N](/images/2025-10-16-highscores-epsilon-n.png)
 
 As shown above, the traditional Epsilon Greedy approach leads to slower improvement, with the highscore curve flattening early. By contrast, Epsilon N maintains steady progress as the AI masters each score level independently.
 
@@ -142,12 +142,12 @@ Richard S. Sutton is also an inspiration to me. His thoughts on *Reinforcement L
 
 - [Project Website](https://snakelab.osoyalce.com/)
 - [Project on Github](https://github.com/NadimGhaznavi/ai-snake-lab)
-- [Filesystem Layout](/pages/project_layout.html)
-- [Database Schema Documentation](/pages/db_schema.html)
-- Organization and Naming of [Constants](/pages/constants.html)
-- [Git Commit Standards](/pages/git_commit_standards.html)
-- [Git Branching Strategy](/pages/git_branching_strategy.html)
-- [Change Log](/CHANGELOG.md)
+- [Filesystem Layout](https://snakelab.osoyalce.com/pages/project_layout.html)
+- [Database Schema Documentation](https://snakelab.osoyalce.com/pages/db_schema.html)
+- Organization and Naming of [Constants](https://snakelab.osoyalce.com/pages/constants.html)
+- [Git Commit Standards](https://snakelab.osoyalce.com/pages/git_commit_standards.html)
+- [Git Branching Strategy](https://snakelab.osoyalce.com/pages/git_branching_strategy.html)
+- [Change Log](https://snakelab.osoyalce.com/CHANGELOG.md)
 
 ---
 

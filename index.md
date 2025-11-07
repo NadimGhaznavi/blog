@@ -2,6 +2,7 @@
 title: Bear and Moose Blog
 ---
 
+* [Simplifying Linux Service Management in Python](/journal/2025/11/06/Simplifying-Linux-Service-Management-in-Python.html)
 * [AI Snake Lab](/journal/2025/10/16/AI-Snake-Lab.html)
 * [The Power of Pictures](/journal/2025/09/19/The-Power-of-Pictures.html)
 * [Caring About Constants](/journal/2025/09/11/Caring-about-Constants.html)

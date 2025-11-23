@@ -2,6 +2,8 @@
 title: Bear and Moose Blog
 ---
 
+![Bear and Moose](/images/bear_and_moose.png)
+
 * [Etsy Storefront Opening](/journal/2025/11/23/Etsy-Storefront.html)
 * [Simplifying Linux Service Management in Python](/journal/2025/11/06/Simplifying-Linux-Service-Management-in-Python.html)
 * [AI Snake Lab](/journal/2025/10/16/AI-Snake-Lab.html)

@@ -11,7 +11,7 @@ title: Bear and Moose Blog
 * [Caring About Constants](/journal/2025/09/11/Caring-about-Constants.html)
 * [Welcoming Racoon Tiger Shrimp to the Tank](/journal/2025/07/29/Racoon-Tiger-Shrimp.html)
 * [Why I Build Db4E](/journal/2025/07/09/Why-I-Built-Db4E.html)
-* [Git Battles](/jounal/2025/07/06/Git-Battles.html)
+* [Git Battles](/journal/2025/07/06/Git-Battles.html)
 * [Documentation Matters](/journal/2025/07/02/Documentation-Matters.html)
 * [GoodBye GitHub Pages and ApexCharts](/journal/2025/06/29/Textual-Replaces-Apexcharts.html)
 * [Pivot to Textual](/journal/2025/06/27/Pivot-to-Textual.html)

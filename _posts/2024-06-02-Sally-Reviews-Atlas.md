@@ -1,5 +1,5 @@
 ---
-title: "Sally Reviews Atlas"
+title: Sally Reviews Atlas
 date: 2024-06-01
 category: journal
 tags: 

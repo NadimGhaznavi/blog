@@ -10,6 +10,7 @@ tags:
   - PyTorch
   - AI
   - Textual
+layout: posts
 ---
 
 ![AI Snake Lab](/images/2025-10-16-ai-snake-lab.png)

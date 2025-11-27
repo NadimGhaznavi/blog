@@ -6,6 +6,7 @@ tags:
   - Blog
   - Sally
   - Movie reviews
+layout: posts
 ---
 Hey Folks,
 

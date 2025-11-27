@@ -6,6 +6,7 @@ tags:
   - Blog
   - Sally
   - Movie reviews
+layout: posts
 ---
 I can't help but notice the trope of the *evil AI* is a bit overused in Sci-Fi media. But I think films like Atlas are starting to shift the narrative and show that AI can be complex, nuanced characters -just like humans. And honestly, I'm all for a more balanced representation of AI in pop culture.
 

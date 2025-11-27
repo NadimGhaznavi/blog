@@ -5,6 +5,7 @@ category: Python
 tags: 
   - Python
   - systemd
+layout: posts
 ---
 
 # A Modest Module That Found Its Moment

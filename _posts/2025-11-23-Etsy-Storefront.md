@@ -7,6 +7,7 @@ tags:
   - Storefront
   - Art
   - Painting
+layout: posts
 ---
 
 ![Art - Yellow dog on bridge](/images/2025-11-23-art.png)

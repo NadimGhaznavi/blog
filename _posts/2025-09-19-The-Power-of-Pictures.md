@@ -7,6 +7,7 @@ tags:
   - Class Diagrams
   - Programming
   - Python
+layout: posts
 ---
 
 # Introduction

@@ -5,6 +5,7 @@ category: journal
 tags: 
   - Aquaponics
   - racoon tiger shrimp
+layout: posts
 ---
 
 ![Racoon Tiger Shrimp](/images/2025-07-29_racoon-tiger-shrimp.jpg)

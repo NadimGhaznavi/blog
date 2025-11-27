@@ -7,6 +7,7 @@ tags:
   - systemd
   - SystemCtl
   - Python
+layout: posts
 ---
 
 ![SystemCtl Image](/images/2025-11-06-systemctl.png)

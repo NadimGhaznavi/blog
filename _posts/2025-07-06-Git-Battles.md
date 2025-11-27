@@ -5,6 +5,7 @@ category: journal
 tags: 
   - Git
   - Db4E
+layout: posts
 ---
 
 # Round One Knockout

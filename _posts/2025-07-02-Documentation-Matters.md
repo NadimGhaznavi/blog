@@ -6,6 +6,7 @@ tags:
   - Python
   - Textual
   - Db4E
+layout: posts
 ---
 
 # Textual Documentation Error

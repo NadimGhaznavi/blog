@@ -4,6 +4,7 @@ date: 2025-07-09
 category: journal
 tags: 
   - Db4E
+layout: posts
 ---
 
 # A Complicated Setup

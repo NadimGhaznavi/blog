@@ -6,6 +6,7 @@ tags:
   - Constants
   - Python
   - Db4E
+layout: posts
 ---
 
 # Introduction

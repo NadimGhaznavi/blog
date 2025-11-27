@@ -5,6 +5,7 @@ category: journal
 tags: 
   - Textual
   - db4e
+layout: posts
 ---
 
 Hey folks,

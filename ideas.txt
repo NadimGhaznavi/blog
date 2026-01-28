@@ -1,5 +1,13 @@
 Urwid to Textual pivot
 
+Why Programming isn't Dead
+- Code verification
+- AIs are good at writing a module, not good at writing 50 modules that are split across various domains that interact using Best (human) Practices
+- AIs are good for green field dev work on a project that will never change
+- 90% of the cost of software is support i.e. changes, new features, etc.
+- Specs are hard. It's easy to miss something. The AI will just "fill in the gaps".
+- When has an AI EVER said, "Can you clarify that?" That's a really big limitation.
+
 Db4E Textual architecture
 - A fully reactive TopBar using a proper @dataclass state model
 - A clean ContentSwitcher pattern via PaneMgr

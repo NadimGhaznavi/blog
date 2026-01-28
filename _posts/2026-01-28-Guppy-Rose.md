@@ -10,7 +10,7 @@ tags:
 
 ![Photo of a rosebud](/images/2026-01-28-rosebud.jpg)
 
-# A Rose, a Few Guppies, and a Quiet Little Ecosystem7
+# A Rose, a Few Guppies, and a Quiet Little Ecosystem
 
 Something small but quietly miraculous is happening in my basement apartment.
 

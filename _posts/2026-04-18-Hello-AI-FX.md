@@ -8,7 +8,7 @@ tags:
   - Textual
 ---
 
-![AI FX on PyPI](/images/2026-04-18-ai-forex-pypi.png)
+![AI FX on PyPI](/images/2026-04-18-aifx.png)
 
 # Institutional Trading Systems
 

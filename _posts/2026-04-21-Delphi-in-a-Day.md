@@ -1,5 +1,5 @@
 ---
-title: "Getting Up to Speed with Delphi in a Day"
+title: "Up to Speed with Delphi in a Day"
 date: 2026-04-21
 category: journal
 tags: 

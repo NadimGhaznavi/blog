@@ -105,26 +105,6 @@ Market data, networking, async loops, GUI events, serialization, plotting, packa
 
 ---
 
-# What Comes Next
-
-The next layer is event reporting.
-
-The broker already tracks heartbeat timing, and the OANDA manager can time API calls. The plan is to publish those measurements as broker events so clients can subscribe to system status the same way they subscribe to candle data.
-
-That opens the door to a more general event stream:
-
-- Broker connected or disconnected
-- OANDA latency updated
-- Feed started or stopped
-- Client connected or removed
-- Instrument metadata refreshed
-
-After that, the project can start moving toward historical replay and simulation. If historical five-second candles can be loaded into the same pipeline, then the client, database, and message layer can all be exercised without waiting for live markets.
-
-That is where the AI part starts to become more concrete.
-
----
-
 # Still a Small Machine
 
 AI FX is still a small machine.

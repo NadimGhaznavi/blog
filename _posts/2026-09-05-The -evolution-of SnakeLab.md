@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of Snake Lab"
-date: 2026-08-29
+date: 2026-09-05
 category: journal
 tags:
   - AI

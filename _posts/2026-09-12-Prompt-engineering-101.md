@@ -10,7 +10,7 @@ tags:
   - GGUF
 ---
 
-# Fr3d: Prompt Engineering 101
+![Fr3d](/images/2026-09-12-fr3d.png)
 
 Once [Snake Lab](https://snakelabserver.osoyalce.com) had become a proper server, with a ZeroMQ API, configuration validation, a database, and a way to run experiments independently of the client, the obvious next question was:
 

@@ -1,5 +1,5 @@
 ---
-title: "Local LLM Writes Haikus"
+title: "The Evolution of Snake Lab"
 date: 2026-08-29
 category: journal
 tags:

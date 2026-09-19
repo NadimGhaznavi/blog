@@ -114,11 +114,11 @@ The laboratory was ready.
 
 Now I needed to build the scientist.
 
-For the architecture, protocol, configuration options, and technical documentation, see the [Snake Lab Server project site](https://snakelabserver.osoyalce.com/?utm_source=chatgpt.com).
-
 ---
 
 ## Links
+
+- [Snake Lab Server project site](https://snakelabserver.osoyalce.com)
 
 - [Part 1/4 of this Blog Series](/journal/Local-LLM-writes-haikus/)
 - Part 2/4 is this post.

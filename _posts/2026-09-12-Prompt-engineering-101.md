@@ -28,6 +28,8 @@ Then it would try again.
 
 In other words, I had finally connected the little local LLM experiment from my previous post to something that could actually do work.
 
+---
+
 ## Giving the AI an experiment
 
 I started building prompts that explained the Snake experiment to the model.
@@ -49,6 +51,8 @@ I already had a known working Snake configuration that could produce a high scor
 This wasn't just asking an LLM to produce plausible-looking JSON.
 
 It had to make decisions against actual experimental results.
+
+---
 
 ## A brief experiment with vision
 
@@ -72,6 +76,8 @@ Watching the reasoning made those failures visible.
 
 That was probably my first real lesson in prompt engineering. A bad answer isn't necessarily a model problem.Sometimes you've simply built a bad question.
 
+---
+
 ## Prompt engineering is software engineering
 
 Before Fr3d, I had mostly thought about prompts as instructions. By the end of the project I was thinking about them much more like interfaces.
@@ -81,6 +87,8 @@ The model can only reason over the information you give it. The structure of tha
 If you tell the model to select a value from a search space, it needs to know the search space. If it must avoid previously tested values, it needs a reliable record of those values. If results from different seeds aren't directly comparable, the prompt needs to make that distinction clear. And if the prompt contains contradictory requirements, the LLM is going to have exactly the same problem a programmer would have working from a contradictory specification.
 
 The prompts became part of the system architecture.
+
+---
 
 ## The prototype problem
 
@@ -105,6 +113,8 @@ Not because any individual part was especially complicated. It had simply grown 
 
 It had reached that familiar prototype stage where the software technically worked, but understanding *why- it worked was becoming increasingly difficult. And that was when I realized something else I had gotten wrong.
 
+---
+
 ## Reporting should have been a first-class feature
 
 I had treated logging and reporting as things I could add around the experiment. That was backwards. For an autonomous experimental system, observability is part of the experiment. I needed to be able to answer basic questions easily:
@@ -118,6 +128,8 @@ I had treated logging and reporting as things I could add around the experiment.
 - Which configuration is currently considered the best?
 
 A pile of log files could technically answer those questions. But technically answering a question and making the system understandable are very different things. The next system needed to be designed around reporting from the beginning.
+
+---
 
 ## Finding the boundaries
 
@@ -148,6 +160,8 @@ Those two categories had become tangled together in Fr3d. Once I could see that 
 - Reporting needed to be built into the architecture.
 - Experiment-specific logic needed to be separated from the generic machinery that talked to the LLM.
 
+---
+
 ## Start over
 
 There is always a temptation with a working prototype to keep repairing it. Refactor this piece. Move that function. Extract a class. Clean up a prompt. Remove some duplication.
@@ -166,3 +180,12 @@ My takeaway from Fr3d was not *design everything correctly before you begin*. Al
 - Then start over.
 
 Fr3d was messy. But it worked. And because it worked, I finally knew what I needed to build next.
+
+---
+
+## Links
+
+- [Part 1/4 of this Blog Series - Local LLM writes Haikus](/journal/Local-LLM-writes-haikus/)
+- [Part 2/4 of this Blog Series - The Evolution of Snake Lab](/journal/The-evolution-of-SnakeLab/)
+- Part 3/4 of this Blog Series: This post
+- [Part 4/4 of this Blog Series - From Prototype to Product](/journal/From-prototype-to-product/)

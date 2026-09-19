@@ -10,7 +10,9 @@ tags:
   - GGUF
 ---
 
-# Introduction
+## Introduction
+
+This is part one of a four part blog series.
 
 I recently acquired a pair of matching HP Z440 workstations with M4000 GPUs. I did some research and learned that I could run a small local LLM on that hardware. I've only ever engaged with LLMs as an end-user, in my browser or in my VS code editor.
 
@@ -18,7 +20,7 @@ So I downloaded the **Qwen3.5 4B** model from Hugging Face and started figuring 
 
 ---
 
-# Building the Model
+## Building the Model
 
 Getting everything running involved a few pieces.
 
@@ -38,7 +40,7 @@ I already had ChatGPT, which is a **LOT** more knowledgeable and skilled.
 
 ---
 
-# Talking to It
+## Talking to It
 
 Of course, the first thing I did was start asking it questions.
 
@@ -62,7 +64,7 @@ That was cool.
 
 ---
 
-# Now What?
+## Now What?
 
 The problem was that I still had a chatbot.
 
@@ -84,7 +86,7 @@ Write haikus about numbers.
 
 ---
 
-# Random Haikus
+## Random Haikus
 
 The program generated a random number and sent it to the LLM with a prompt asking it to write a haiku about that number.
 
@@ -127,7 +129,7 @@ I had put an AI **inside a program**.
 
 ---
 
-# Conclusion
+## Conclusion
 
 My first experiment with a locally hosted LLM produced absolutely nothing of practical value.
 
@@ -144,3 +146,9 @@ I didn't even have the idea fully formed.
 I had a loop.
 
 And a log file full of haikus.
+
+---
+
+## Links
+
+- [Part 2/4 of this Blog Series](/journal/The-evolution-of-SnakeLab/)

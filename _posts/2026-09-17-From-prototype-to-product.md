@@ -171,3 +171,10 @@ That's a pretty good place to stop.
 - [Ax3l Project](https://ax3l.osoyalce.com)
 - [Ax3l's Live Experiment Site](https://snakeweb.osoyalce.com)
 - [Snake Lab Server](https://snakelabserver.osoyalce.com)
+
+### Blog Series
+
+- [Part 1/4 of this Blog Series - Local LLM writes Haikus](/journal/Local-LLM-writes-haikus/)
+- [Part 2/4 of this Blog Series - The Evolution of Snake Lab](/journal/The-evolution-of-SnakeLab/)
+- [Part 3/4 of this Blog Series - Prompt Engineering 101](/journal/Prompt-engineering-101)
+- Part 4/4 of this Blog Series - This post

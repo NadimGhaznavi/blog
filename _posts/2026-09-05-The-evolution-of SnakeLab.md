@@ -36,6 +36,8 @@ That idea would eventually become **Fr3d**.
 
 But there was a problem.
 
+---
+
 ## The old AI Snake Lab Project
 
 I had followed Patrick Leober's tutorial, and then I continued. I ported it into **Textual** and integrated the old MatPlotLib plots with integrated **Textual Plot** plots. The application became separate client and server processes. ZeroMQ connected them. Simulation results were stored in a database.
@@ -47,6 +49,8 @@ It was already much more than a Snake game.
 But it was still an *application*. Its architecture had grown around the assumption that a human being was sitting at the client and conducting experiments.
 
 Fr3d changed that assumption.
+
+---
 
 ## Building the Lab
 
@@ -70,6 +74,8 @@ But now the Textual interface was just **one client**.
 
 That was an important distinction.
 
+---
+
 ## An Experiment Is More Than a High Score
 
 I also wanted Snake Lab Server to be fairly strict about what constituted an experiment.
@@ -90,6 +96,8 @@ Otherwise I wouldn't have a laboratory.
 
 I'd have a slot machine.
 
+---
+
 ## Ready for the Scientist
 
 And that was Snake Lab Server.
@@ -107,3 +115,11 @@ The laboratory was ready.
 Now I needed to build the scientist.
 
 For the architecture, protocol, configuration options, and technical documentation, see the [Snake Lab Server project site](https://snakelabserver.osoyalce.com/?utm_source=chatgpt.com).
+
+---
+
+## Links
+
+- [Part 1/4 of this Blog Series](/journal/Local-LLM-writes-haikus/)
+- Part 2/4 is this post.
+- [Part 3/4 of this Blog Series](/journal/Prompt-engineering-101/)

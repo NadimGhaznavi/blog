@@ -1,5 +1,5 @@
 ---
-title: "Local LLM Writes Haikus"
+title: "Local LLM Writes Haikus (1/4)"
 date: 2026-08-29
 category: journal
 tags:

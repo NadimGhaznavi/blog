@@ -1,5 +1,5 @@
 ---
-title: "Prompt Engineering 101"
+title: "Prompt Engineering 101 (3/4)"
 date: 2026-09-12
 category: journal
 tags:

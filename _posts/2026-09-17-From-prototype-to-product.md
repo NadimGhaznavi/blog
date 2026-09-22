@@ -1,5 +1,5 @@
 ---
-title: "From Prototype to Product"
+title: "From Prototype to Product (4/4)"
 date: 2026-09-19
 category: journal
 tags:

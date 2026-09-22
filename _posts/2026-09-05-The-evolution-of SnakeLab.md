@@ -1,5 +1,5 @@
 ---
-title: "The Evolution of Snake Lab"
+title: "The Evolution of Snake Lab (2/4)"
 date: 2026-09-05
 category: journal
 tags:

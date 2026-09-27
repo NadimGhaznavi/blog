@@ -14,6 +14,10 @@
 #remote_theme: "NadimGhaznavi/minimal-mistakes"
 remote_theme: "mmistakes/minimal-mistakes"
 
+mycount:
+    endpoint: "https://count.osoyalce.com/count"
+    site: "blog"
+      
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "neon"
 #minimal_mistakes_skin: "sunrise"

@@ -20,7 +20,6 @@ minimal_mistakes_skin: "dark"
 #minimal_mistakes_skin: "air"
 
 # Site Settings
-# Site Settings
 mycount:
    endpoint: "https://count.osoyalce.com/count"
    site: "blog"

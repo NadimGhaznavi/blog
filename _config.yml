@@ -29,7 +29,7 @@ title: "Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Blog"
-description: "R3el is an AI agent backed by a locally hosted LLM."
+description: "My personal blog"
 url: "https://blog.osoyalce.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: NadimGhaznavi/blog # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

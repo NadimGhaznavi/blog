@@ -21,8 +21,10 @@ minimal_mistakes_skin: "dark"
 
 # Site Settings
 mycount:
-   endpoint: "https://count.osoyalce.com/count"
-   site: "blog"
+  endpoint: "https://count.osoyalce.com/count"
+  site: "blog"
+
+
 locale: "en-US"
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
 title: "Blog"

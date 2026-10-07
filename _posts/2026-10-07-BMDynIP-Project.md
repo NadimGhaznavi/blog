@@ -3,8 +3,11 @@ title: "Dynamic DNS Service"
 date: 2026-10-07
 category: journal
 tags: 
-  - tag 1
-  - tag 2
+  - dynamic-dns
+  - dns
+  - godaddy
+  - self-hosted
+  - homelab
 ---
 
 ## Introduction

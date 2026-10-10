@@ -82,6 +82,18 @@ a:focus-visible, button:focus-visible {
   margin-top: .6rem;
 }
 .archive__item-excerpt p { margin: 0; }
+.layout--home #main { max-width: 1600px; }
+.home-posts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.1rem;
+}
+.home-posts > div { min-width: 0; }
+.home-posts .archive__item {
+  height: 100%;
+  margin-bottom: 0;
+}
+.home-posts .archive__item-title { overflow-wrap: anywhere; }
 .page__meta, .page__date { color: var(--blog-muted); }
 .page__content {
   color: var(--blog-text);
@@ -119,8 +131,16 @@ a:focus-visible, button:focus-visible {
 .page__footer { background: #141f28; color: var(--blog-muted); }
 .page__footer a { color: var(--blog-accent); }
 hr { border-color: var(--blog-line); }
+@media (min-width: 768px) {
+  .home-posts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (min-width: 1024px) {
   .archive, .page { padding-left: 2.3rem; }
+  .layout--home .sidebar { width: 240px; }
+  .layout--home .archive {
+    width: calc(100% - 260px);
+    padding-inline-end: 0;
+  }
 }
 @media (max-width: 767px) {
   #main { padding-top: 1.25rem; }

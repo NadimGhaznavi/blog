@@ -1,5 +1,5 @@
 ---
-title: "From Seed to Signal: AI FX
+title: "From Seed to Signal: AI FX"
 date: 2026-05-18
 category: journal
 tags:

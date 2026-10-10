@@ -1,0 +1,135 @@
+/* Blog visual refresh: overrides for Minimal Mistakes dark skin.
+   Kept separate from the remote theme so GitHub Pages can serve it as-is. */
+:root {
+  --blog-bg: #101820;
+  --blog-panel: #192631;
+  --blog-panel-hover: #203140;
+  --blog-text: #e8edf1;
+  --blog-muted: #a7b7c3;
+  --blog-line: #304352;
+  --blog-accent: #8ed7ba;
+  --blog-accent-strong: #b1f0d5;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--blog-bg);
+  color: var(--blog-text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--blog-accent); text-underline-offset: .18em; }
+a:hover { color: var(--blog-accent-strong); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--blog-accent-strong);
+  outline-offset: 4px;
+}
+.masthead {
+  background: #141f28;
+  border-bottom: 1px solid var(--blog-line);
+}
+.masthead__inner-wrap { max-width: 1280px; padding-top: 1rem; padding-bottom: 1rem; }
+.greedy-nav { background: transparent; }
+.greedy-nav a { color: var(--blog-text); }
+.greedy-nav a:hover { color: var(--blog-accent-strong); }
+.greedy-nav .site-title {
+  font-size: 1.15rem;
+  font-weight: 750;
+  letter-spacing: -.035em;
+}
+.greedy-nav .visible-links a:before { background: var(--blog-accent); }
+#main { max-width: 1280px; padding-top: 2.2rem; }
+.page__title, .archive__subtitle {
+  color: #f6f9fb;
+  letter-spacing: -.045em;
+  line-height: 1.18;
+}
+.archive__subtitle {
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  font-weight: 750;
+  border-bottom: 1px solid var(--blog-line);
+  padding-bottom: 1rem;
+  margin-bottom: 1.4rem;
+}
+.archive__item {
+  background: var(--blog-panel);
+  border: 1px solid var(--blog-line);
+  border-radius: 14px;
+  padding: 1.4rem 1.55rem;
+  margin-bottom: 1.1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,.08);
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+.archive__item:hover {
+  background: var(--blog-panel-hover);
+  border-color: #497565;
+  transform: translateY(-2px);
+}
+.archive__item-title {
+  font-size: clamp(1.15rem, 1.8vw, 1.43rem);
+  letter-spacing: -.025em;
+  line-height: 1.3;
+  margin: 0 0 .5rem;
+  font-weight: 720;
+}
+.archive__item-title a { color: #f2f7f9; text-decoration: none; }
+.archive__item-title a:hover { color: var(--blog-accent-strong); }
+.archive__item-excerpt {
+  color: var(--blog-muted);
+  font-size: .95rem;
+  line-height: 1.7;
+  margin-top: .6rem;
+}
+.archive__item-excerpt p { margin: 0; }
+.page__meta, .page__date { color: var(--blog-muted); }
+.page__content {
+  color: var(--blog-text);
+  font-size: 1.025rem;
+  line-height: 1.85;
+}
+.page__content h2, .page__content h3, .page__content h4 {
+  color: #f4f8f9;
+  letter-spacing: -.025em;
+  margin-top: 1.8em;
+  line-height: 1.28;
+}
+.page__content p, .page__content ul, .page__content ol { margin-bottom: 1.35em; }
+.page__content img { border-radius: 10px; }
+.page__content blockquote {
+  border-left: 3px solid var(--blog-accent);
+  color: #c6d5dc;
+  background: #182630;
+  border-radius: 0 8px 8px 0;
+  padding: .8rem 1.2rem;
+}
+.page__content pre, .page__content div.highlighter-rouge,
+.page__content figure.highlight {
+  border-radius: 10px;
+}
+.page__content code { overflow-wrap: anywhere; }
+.sidebar .author__avatar img { border-color: var(--blog-line); }
+.sidebar .author__name { color: #f0f5f7; letter-spacing: -.02em; }
+.sidebar .author__bio, .sidebar .author__urls { color: var(--blog-muted); }
+.sidebar .author__urls a { color: var(--blog-muted); }
+.sidebar .author__urls a:hover { color: var(--blog-accent-strong); }
+.pagination a, .pagination span, .page__footer {
+  border-color: var(--blog-line);
+}
+.page__footer { background: #141f28; color: var(--blog-muted); }
+.page__footer a { color: var(--blog-accent); }
+hr { border-color: var(--blog-line); }
+@media (min-width: 1024px) {
+  .archive, .page { padding-left: 2.3rem; }
+}
+@media (max-width: 767px) {
+  #main { padding-top: 1.25rem; }
+  .archive__item { padding: 1.15rem 1.1rem; border-radius: 11px; }
+  .page__content { font-size: 1rem; }
+  .archive__subtitle { margin-top: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .archive__item { transition: none; }
+  .archive__item:hover { transform: none; }
+}

@@ -1,5 +1,5 @@
 ---
-title: "Up to Speed with Delphi in a Day"
+title: "Delphi in a Day"
 date: 2026-04-21
 category: journal
 tags: 
@@ -8,13 +8,11 @@ tags:
   - Windows
 ---
 
-![Delphi Logo](/images/2026-04-21-delphi.png)
-
----
-
 I have a prospective client who runs a small group of technology businesses, 
 at least one of which integrates with clients using the Delphi programming 
 language. One of the things the client said to me was, "Learn Delphi!"
+
+![Delphi Logo](/images/2026-04-21-delphi.png)
 
 Delphi is primarily used on Windows and includes an integrated development 
 environment (IDE) from [Embarcadero](https://www.embarcadero.com/). The IDE is 

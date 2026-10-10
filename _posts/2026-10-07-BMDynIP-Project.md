@@ -10,11 +10,7 @@ tags:
   - homelab
 ---
 
-## Introduction
-
-This project started as a cron job and a flatfile and -honestly- that would work perfectly well for a small home setup. Say, two or three machines. 
-
-I'm currently running 8 machines which have various versions of different third party and custom software. Keeping my public IP's DNS record mapped is just one more piece of my home lab infrastructure. So if you are wondering why I have an *enterprise-grade* solution, it's because *that's how I roll!* :D.
+This project started as a cron job and a flatfile and -honestly- that would work perfectly well for a small home setup. Say, two or three machines. I'm currently running 8 machines which have various versions of different third party and custom software. Keeping my public IP's DNS record mapped is just one more piece of my home lab infrastructure. So if you are wondering why I have an *enterprise-grade* solution, it's because *that's how I roll!* :D.
 
 ## BMDynIP Overview
 

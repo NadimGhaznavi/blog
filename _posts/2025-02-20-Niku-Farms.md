@@ -7,9 +7,9 @@ tags:
 layout: posts
 ---
 
-![NIKU Farms](/images/2025-02-20-niku-farms.png)
-
 I received my order from [NIKU Farms](https://www.nikufarms.com/), YAY! It's a meat delivery that my sister, Corinna Ghaznavi, gifted me this Christmas. Every two months I receive this amazing food. This time I ordered:
+
+![NIKU Farms](/images/2025-02-20-niku-farms.png)
 
 * Black Forest Ham (~2.4lb/pk)
 * Liverwurst

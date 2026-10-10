@@ -8,8 +8,6 @@ tags:
   - Roses
 ---
 
-![Photo of a rosebud](/images/2026-01-28-rosebud.jpg)
-
 # A Rosebud, a Few Guppies, and a Quiet Little Ecosystem
 
 Something small but quietly miraculous is happening in my basement apartment.
@@ -17,6 +15,8 @@ Something small but quietly miraculous is happening in my basement apartment.
 ![Michaelangelo's hand of god](/images/2026-01-28-god.png)
 
 Okay, maybe the hand of God didn't reach down and -well- do anything, but a rosebud appeared! That miniature rose plant is not in soil. There’s no potting mix, no fertilizer pellets, no bottled nutrients, no chemical additives of any kind. What it’s growing in is an inert, drain-and-flood gravel bed that’s part of a tiny aquaponics system.
+
+![Photo of a rosebud](/images/2026-01-28-rosebud.jpg)
 
 Here’s how it works.
 

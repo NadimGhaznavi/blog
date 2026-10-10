@@ -12,8 +12,6 @@ tags:
 
 ---
 
-# The Delphi Programming Language
-
 I have a prospective client who runs a small group of technology businesses, 
 at least one of which integrates with clients using the Delphi programming 
 language. One of the things the client said to me was, "Learn Delphi!"

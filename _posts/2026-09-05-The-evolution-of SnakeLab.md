@@ -10,9 +10,9 @@ tags:
   - GGUF
 ---
 
-![Snake Lab Logo](/images/2026-09-05-snake-lab.png)
-
 In my last post, I setup a locally hosted LLM running on an old HP Z440 and wrote a crude little conversation loop. I generated random numbers, fed them to the LLM, and asked it to write haikus about them.
+
+![Snake Lab Logo](/images/2026-09-05-snake-lab.png)
 
 It worked.
 

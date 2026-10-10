@@ -10,11 +10,9 @@ tags:
   - homelab
 ---
 
-![Web Interface](/images/2026-10-07-bmdynip-web-interface.png)
-
-This is another infrastructure project.
-
 The [Bear & Moose GeoIP Project](https://bmgeoip.osoyalce.com) provides an easy-to-use GeoIP service for your applications and for interactive lookups.
+
+![Web Interface](/images/2026-10-07-bmdynip-web-interface.png)
 
 - BmGeoIP has simple install.sh, upgrade.sh, and uninstall.sh scripts.
 - Downloads public geolocation data from ipapi.is on a configurable schedule.

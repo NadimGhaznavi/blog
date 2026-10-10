@@ -10,9 +10,9 @@ tags:
   - GGUF
 ---
 
-![Fr3d](/images/2026-09-12-fr3d.png)
+The [Snake Lab](https://snakelabserver.osoyalce.com) had become a proper server, with a ZeroMQ API, configuration validation, a database, and a way to run experiments independently of the client. The obvious next question was:
 
-Once [Snake Lab](https://snakelabserver.osoyalce.com) had become a proper server, with a ZeroMQ API, configuration validation, a database, and a way to run experiments independently of the client, the obvious next question was:
+![Fr3d](/images/2026-09-12-fr3d.png)
 
 What happens if I let an LLM drive it?
 

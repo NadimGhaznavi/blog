@@ -10,13 +10,9 @@ tags:
   - GGUF
 ---
 
+Fr3d worked: It could talk to the Snake Lab, propose changes to the RNN configuration, run experiments, look at the results, and try again. It proved the idea: a local LLM could act as an autonomous experimenter, tuning a reinforcement-learning system over hundreds of simulations.
+
 ![Ax3l](/images/2026-09-17-ax3l.png)
-
-Fr3d worked.
-
-That was the important thing.
-
-It could talk to the Snake Lab, propose changes to the RNN configuration, run experiments, look at the results, and try again. It proved the idea: a local LLM could act as an autonomous experimenter, tuning a reinforcement-learning system over hundreds of simulations.
 
 But by the time I was finished with Fr3d, I had also learned exactly how I *didn't* want to build the next version.
 

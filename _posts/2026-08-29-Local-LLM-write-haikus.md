@@ -10,7 +10,7 @@ tags:
   - GGUF
 ---
 
-This is part one of a four part blog series.
+This is part one of a four part blog series. In this post, I download, install and setup some software to prompt a local LLM to write haikus...
 
 I recently acquired a pair of matching HP Z440 workstations with M4000 GPUs. I did some research and learned that I could run a small local LLM on that hardware. I've only ever engaged with LLMs as an end-user, in my browser or in my VS code editor.
 

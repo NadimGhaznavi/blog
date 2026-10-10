@@ -1,5 +1,5 @@
 ---
-title: "AI FX - A Small Experiment"
+title: "A Small Experiment: AI FX
 date: 2026-04-17
 category: journal
 tags: 

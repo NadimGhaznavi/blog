@@ -1,5 +1,5 @@
 ---
-title: "My Git Battles: From Chaos to a Repeatable Release Process"
+title: "Releasing with Git"
 date: 2025-07-06
 category: journal
 tags: 
@@ -7,8 +7,6 @@ tags:
   - Db4E
 layout: posts
 ---
-
-# Round One Knockout
 
 Let me be honest: Git has punched me in the face more times than I can count. Every time I think I’ve got a smooth release flow down, Git yells, “Not so fast!” and two quick jabs, a left hook an uppercut and I'm on the mat wondering what happened: Branches out of sync, conflicts popping up like whack-a-moles, version numbers that look more like lottery tickets… it’s been a mess.
 

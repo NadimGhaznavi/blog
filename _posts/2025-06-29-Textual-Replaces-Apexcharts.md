@@ -8,8 +8,6 @@ tags:
 layout: posts
 ---
 
-# What I Started With:
-
 The original reporting system was a set of static dashboards built using GitHub Pages, JavaScript, and ApexCharts. It pulled data from my mining setup — via log parsers and CSV exports — and rendered clean, interactive graphs. Fast to prototype, zero maintenance, and visually solid. But it was always separate from the core system. A sidecar, not a cockpit.
 
 ---

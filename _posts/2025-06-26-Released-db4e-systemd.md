@@ -8,8 +8,6 @@ tags:
 layout: posts
 ---
 
-# A Modest Module That Found Its Moment
-
 I recently published a small Python module to PyPI and GitHub: [`db4e-systemd`](https://pypi.org/project/db4e-systemd/), a lightweight wrapper around `systemctl` that lets you control services (start, stop, enable, disable, status) directly from Python with clean, minimal code.
 
 I wrote it to support my own `db4e` project — a full-featured deployment manager for Monero mining components — but figured the `Db4eSystemd` class might be useful on its own. It turns out I was right.

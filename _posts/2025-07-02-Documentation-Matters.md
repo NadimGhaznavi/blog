@@ -9,11 +9,7 @@ tags:
 layout: posts
 ---
 
-# Textual Documentation Error
-
-I Got Burned by a Bug in the Textual Docs — and It Brought Back a Memory
-
-I’ve been building a modern terminal UI in Python using the excellent [Textual](https://textual.textualize.io) framework. It’s sharp, fast, and honestly pretty fun. But recently I hit a wall trying to send a custom message from a component to the main app.
+I was burned by opaque documentation: I’ve been building a modern terminal UI in Python using the excellent [Textual](https://textual.textualize.io) framework. It’s sharp, fast, and honestly pretty fun. But recently I hit a wall trying to send a custom message from a component to the main app.
 
 Everything looked right:
 

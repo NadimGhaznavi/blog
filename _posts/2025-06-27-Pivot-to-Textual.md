@@ -8,10 +8,7 @@ tags:
 layout: posts
 ---
 
-Hey folks,
-
-I’ve been deep in the trenches with my [db4e](https://db4e.osoyalce.com) project — pulling together Monero mining infrastructure, MongoDB integration, and a bunch of orchestration magic. And for a while, I tried to slap a Urwid-based interface on top of it all.
-
+I’ve been deep in the trenches with my **Db4E** project — pulling together Monero mining infrastructure, MongoDB integration, and a bunch of orchestration magic. And for a while, I tried to slap a Urwid-based interface on top of it all.
 
 Let’s just say... it worked. Technically. But the more I pushed, the more it pushed back.
 

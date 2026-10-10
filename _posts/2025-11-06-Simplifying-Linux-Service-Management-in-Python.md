@@ -1,5 +1,5 @@
 ---
-title: Simplifying Linux Service Management in Python
+title: Python systemctl Wrapper
 date: 2025-11-06
 category: journal
 tags: 
@@ -10,10 +10,11 @@ tags:
 layout: posts
 ---
 
+I’ve been working on **Db4E**, my Monero deployment, operations and analytics platform. It uses Linux systemd to spin up manage *Monero*, *P2Pool* and *XMRig* instances as well as the *Db4E* service itself. As part of that work, I created **SystemCtl**, a small Python module that wraps the Linux systemctl command in a clean, object-oriented API. 
+
 ![SystemCtl Image](/images/2025-11-06-systemctl.png)
 
-I’ve been working on [Db4E](https://db4e.osoyalce.com/), my Monero deployment, operations and analytics platform. It uses Linux systemd to spin up manage *Monero*, *P2Pool* and *XMRig* instances as well as the *Db4E* service itself. As part of that work, I created **SystemCtl**, a small Python module that wraps the Linux systemctl command in a clean, object-oriented API. Basically, it lets you manage systemd services from Python - no more parsing shell output!
-
+Basically, it lets you manage systemd services from Python - no more parsing shell output!
 
 ```python
 from systemctl import SystemCtl

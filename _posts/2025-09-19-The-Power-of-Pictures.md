@@ -10,8 +10,6 @@ tags:
 layout: posts
 ---
 
-# Introduction
-
 You know that saying, *"A picture is worth a thousand words."*? In programming, I'd argue it can be worth a thousand lines of code...
 
 ---

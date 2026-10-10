@@ -8,14 +8,11 @@ tags:
   - Movie reviews
 layout: posts
 ---
-Hey Folks,
-
-Some stuff I've been working on:
 
 * [The XMR Mining Farm](https://xmr.osoyalce.com/) complete with [this eye-popping chart](https://xmr.osoyalce.com/2024/05/29/XMR-Earnings.html)
 * [The Bear and Moose Knowledge Base](https://kb.osoyalce.com/)
 * [My resume](https://nadim-daniel.ghaznavi.org)
-* [MyZODB - A Place to Store Everything](https://myzodb.ozoyalce.com/) 
+* **MyZODB - A Place to Store Everything**
 
 That's it for now! 
 

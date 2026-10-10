@@ -9,8 +9,6 @@ tags:
 layout: posts
 ---
 
-# Introduction
-
 This post is about using constants in your code. Why it matters, what the benefits are and how you can do it well. I'm sad to say, I learned this the hard way. Initially I didn't use many constants in my code.
 
 I didn’t think much about constants. Like most projects, I leaned heavily on magic strings. They were quick, convenient, and everywhere.

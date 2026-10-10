@@ -7,8 +7,6 @@ tags:
 layout: posts
 ---
 
-# A Complicated Setup
-
 When I first started experimenting with Monero mining and self-hosted infrastructure, I did what everyone else does: I downloaded the Monero software, the P2Pool software, the XMRig software. After tinkering with configuration files, writing custom startup scripts, and creating system service definitions, I was finally able to start mining.
 
 But I quickly realized that **every service had its own config format, setup quirks, and lifecycle management needs**.

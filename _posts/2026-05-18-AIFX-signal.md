@@ -10,9 +10,6 @@ tags:
   - ZeroMQ
 ---
 
-
-# From Seed to Signal
-
 In the first post, AI FX was still mostly a seed: a repo, a PyPI package, and an idea about using automated FOREX tooling as a learning lab. Since then, the seed has grown roots. The project now has a working broker/client architecture, live OANDA data flowing into an in-memory database layer, published over ZeroMQ, and consumed by a Qt GUI that renders live candlestick data. It is still early, but it has crossed an important line: AI FX is no longer just scaffolding. It is a running system.
 
 ![AI FX live EUR/CAD view](/images/2026-05-18-aifx-live-eurcad.png)

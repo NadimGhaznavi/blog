@@ -1,5 +1,5 @@
 ---
-title: "AI FX - A Small Experiment in a Big Game"
+title: "AI FX - A Small Experiment"
 date: 2026-04-17
 category: journal
 tags: 
@@ -8,13 +8,9 @@ tags:
   - Textual
 ---
 
+I’ve spent some time around trading systemsL At Merrill Lynch, I supported the *Order Audit Trail System* ([OATS](https://www.finra.org/filing-reporting/market-transparency-reporting/order-audit-trail-system-oats-ROT)), a compliance system required by NASDAQ. Its purpose is simple in theory but critical in practice: ensure institutions aren’t exploiting client activity for unfair advantage. Systems like that are designed to surface patterns that shouldn’t exist.
+
 ![AI FX on PyPI](/images/2026-04-18-aifx.png)
-
-# Institutional Trading Systems
-
-I’ve spent some time around trading systems.
-
-At Merrill Lynch, I supported the *Order Audit Trail System* ([OATS](https://www.finra.org/filing-reporting/market-transparency-reporting/order-audit-trail-system-oats-ROT)), a compliance system required by NASDAQ. Its purpose is simple in theory but critical in practice: ensure institutions aren’t exploiting client activity for unfair advantage. Systems like that are designed to surface patterns that shouldn’t exist.
 
 At CIBC, I led a team supporting the bank’s automated (no-touch) FOREX trading system. This was a mission-critical platform where downtime directly impacted revenue. According to the runbook, the system generated roughly $4M CAD per hour, and up to $40M during peak market activity.
 

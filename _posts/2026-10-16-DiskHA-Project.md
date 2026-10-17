@@ -3,6 +3,11 @@ title: "DiskHA - Disk Replication, Health Checks, and Email Alerting"
 date: 2026-10-11
 category: journal
 tags: 
+- DiskHA
+- cron
+- rsync
+- data replication
+- SMART monitoring
 ---
 
 I run an NFS server on my network. I use two large drives and a cron job to rsync the data to provide **basic** data protection. This solution will not save you from power surges, fire, theft, or accidental data deletions. But it works. It's exactly right for my home setup. When a drive fails - This happens, things break, it's inevitable:

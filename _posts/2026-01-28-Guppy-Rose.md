@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: guppy-rose
 title: "A Rosebud from the Guppies"
 date: 2026-01-28
 category: journal

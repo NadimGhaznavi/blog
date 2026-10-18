@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: the-power-of-pictures
 title: "The Power of Pictures"
 date: 2025-09-19
 category: journal

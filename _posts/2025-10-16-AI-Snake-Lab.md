@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: ai-snake-lab
 title: "AI Snake Lab"
 date: 2025-10-16
 category: journal

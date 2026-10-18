@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: racoon-tiger-shrimp
 title: "Where'd They Go? Welcoming 17 Racoon Tiger Shrimp to the Tank"
 date: 2025-07-29
 category: journal

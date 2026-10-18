@@ -1,6 +1,10 @@
 ---
 title: "MyCount: Website Analytics & Marketing"
 date: 2026-10-17
+lang: en
+language_name: English
+translation_key: mycount-website-analytics
+permalink: /journal/mycount-website-analytics/
 category: journal
 tags: 
 - MyCount

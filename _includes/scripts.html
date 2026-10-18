@@ -1,3 +1,7 @@
+{% if site.multilingual.enabled and page.translation_key %}
+  <script src="{{ '/assets/js/multilingual.js' | relative_url }}"></script>
+{% endif %}
+
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
     <script src="{{ script | relative_url }}"></script>

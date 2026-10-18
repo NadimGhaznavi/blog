@@ -2,7 +2,7 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <div class="masthead__menu{% if site.multilingual.enabled and page.translation_key %} masthead__menu--multilingual{% endif %}">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
@@ -34,6 +34,9 @@
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if site.multilingual.enabled and page.translation_key %}
+        {% include language-selector.html %}
+      {% endif %}
     </div>
   </div>
 </div>

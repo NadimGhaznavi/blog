@@ -19,11 +19,13 @@ minimal_mistakes_skin: "dark"
 #minimal_mistakes_skin: "sunrise"
 #minimal_mistakes_skin: "air"
 
-# Site Settings
+# Custom Site Settings
 mycount:
   endpoint: "https://count.osoyalce.com/count"
   site: "blog"
-
+multilingual:
+  enabled: true
+  default_lang: en
 
 # Site Settings
 locale: "en-US"

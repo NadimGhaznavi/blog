@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: from-prototype-to-product
 title: "From Prototype to Product (4/4)"
 date: 2026-09-19
 category: journal

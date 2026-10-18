@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: python-systemctl-wrapper
 title: Python systemctl Wrapper
 date: 2025-11-06
 category: journal

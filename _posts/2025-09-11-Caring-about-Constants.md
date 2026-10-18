@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: caring-about-constants
 title: "Caring About Constants"
 date: 2025-09-11
 category: journal

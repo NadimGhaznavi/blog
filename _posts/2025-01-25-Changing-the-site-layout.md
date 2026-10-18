@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: changing-the-site-layout
 title: "Changing the Blog Site's Layout"
 date: 2025-01-25
 category: journal

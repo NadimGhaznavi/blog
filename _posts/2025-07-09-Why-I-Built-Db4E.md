@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: why-i-built-db4e
 title: "Why I Built Db4E"
 date: 2025-07-09
 category: journal

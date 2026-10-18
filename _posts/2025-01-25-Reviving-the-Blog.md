@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: reviving-the-blog
 title: "Reviving the Blog"
 date: 2025-01-25
 category: journal

@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: various-current-projects
 title: "What I'm working on"
 date: 2024-06-01
 category: journal

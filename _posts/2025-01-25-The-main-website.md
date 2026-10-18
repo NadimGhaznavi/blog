@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: the-main-website
 title: "The Main Website"
 date: 2025-01-25
 category: journal

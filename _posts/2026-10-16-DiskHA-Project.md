@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: diskha-project
 title: "DiskHA - Disk Replication, Health Checks, and Email Alerting"
 date: 2026-10-16
 category: journal

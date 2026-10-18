@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: aifx-signal
 title: "From Seed to Signal: AI FX"
 date: 2026-05-18
 category: journal

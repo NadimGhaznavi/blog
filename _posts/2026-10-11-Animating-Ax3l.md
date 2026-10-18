@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: animating-ax3l
 title: "Animating Ax3l Playing Snake"
 date: 2026-10-11
 category: journal

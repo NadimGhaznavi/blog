@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: documentation-matters
 title: "Documentation Matters"
 date: 2025-07-02
 category: journal

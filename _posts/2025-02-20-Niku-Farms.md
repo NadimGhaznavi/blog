@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: niku-farms
 title: "NIKU Farms"
 date: 2025-02-20
 category: journal

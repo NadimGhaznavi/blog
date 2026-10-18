@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: pivot-to-textual
 title: "Pivot to Textual"
 date: 2025-06-27
 category: journal

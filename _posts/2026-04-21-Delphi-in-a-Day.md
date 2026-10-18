@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: delphi-in-a-day
 title: "Delphi in a Day"
 date: 2026-04-21
 category: journal

@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: bmdynip-project
 title: "Dynamic DNS Service"
 date: 2026-10-07
 category: journal

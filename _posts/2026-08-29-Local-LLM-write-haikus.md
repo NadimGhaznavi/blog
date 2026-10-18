@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: local-llm-write-haikus
 title: "Local LLM Writes Haikus (1/4)"
 date: 2026-08-29
 category: journal

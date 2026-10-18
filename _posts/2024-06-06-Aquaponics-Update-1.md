@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: aquaponics-update-1
 title: "Aquaponics Update #1"
 date: 2024-06-06
 category: journal

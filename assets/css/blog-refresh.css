@@ -39,6 +39,32 @@ a:focus-visible, button:focus-visible {
   letter-spacing: -.035em;
 }
 .greedy-nav .visible-links a:before { background: var(--blog-accent); }
+
+/* The blog's local Sass overrides the remote theme's masthead styles. */
+.masthead__menu--multilingual { min-width: 0; }
+.language-selector {
+  align-self: center;
+  flex-shrink: 0;
+  margin-inline-start: 1em;
+}
+.language-selector select {
+  width: auto;
+  max-width: 8em;
+  margin-bottom: 0;
+  font-size: .75rem;
+  color: var(--blog-text);
+  background-color: var(--blog-panel);
+  border: 1px solid var(--blog-line);
+  color-scheme: dark;
+}
+.language-selector select option {
+  color: var(--blog-text);
+  background-color: var(--blog-panel);
+}
+.language-selector select:focus-visible {
+  outline: 2px solid var(--blog-accent-strong);
+  outline-offset: 4px;
+}
 #main { max-width: 1280px; padding-top: 2.2rem; }
 .page__title, .archive__subtitle {
   color: #f6f9fb;

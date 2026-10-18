@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: git-battles
 title: "Releasing with Git"
 date: 2025-07-06
 category: journal

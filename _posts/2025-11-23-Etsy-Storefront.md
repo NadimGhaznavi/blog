@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: etsy-storefront
 title: My Art on Etsy
 date: 2025-11-23
 category: journal

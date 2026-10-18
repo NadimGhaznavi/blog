@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: bmgeoip-project
 title: "Local GeoIP Database"
 date: 2026-10-05
 category: journal

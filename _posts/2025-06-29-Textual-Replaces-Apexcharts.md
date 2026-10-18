@@ -1,4 +1,7 @@
 ---
+lang: en
+language_name: English
+translation_key: textual-replaces-apexcharts
 title: "Textual Replaces ApexCharts"
 date: 2025-06-29
 category: journal

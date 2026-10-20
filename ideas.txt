@@ -1,6 +1,6 @@
-Guppy Rose
+Guppy Rose, followup.
 
-Git Engineered
+Git Followup.
 
 Urwid to Textual pivot
 

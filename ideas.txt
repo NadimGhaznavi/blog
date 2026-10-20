@@ -1,3 +1,7 @@
+Guppy Rose
+
+Git Engineered
+
 Urwid to Textual pivot
 
 Why Programming isn't Dead

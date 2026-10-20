@@ -31,7 +31,7 @@ I'm a systems architect, I really and truly appreciate the value of Git and all 
 
 It became obvious, that I needed a plan—something clear and repeatable. So I sat down and wrote out a [branching strategy](https://db4e.osoyalce.com/pages/Git-Branching-Strategy.html): main for stable releases, dev for integration, feature branches for new work, release branches for final prep, and bugfix branches off main. It's not just high level, it has *every* command I needed. To be honest, it's about 95% there.
 
-I documented this process, not just in the repo, but also in my knowledge base outside the project. Because here’s the kicker: the release process itself kept changing as I switched branches and updated docs inside the repo. It was like trying to follow a map that redraws itself every few steps. Keeping a stable, external copy of the doc saved my sanity.
+I documented this process, not just in the repo, but also in my knowledge base outside the project. My advice: Don't document release management if documenting release management means performing releases... just don't.
 
 ---
 

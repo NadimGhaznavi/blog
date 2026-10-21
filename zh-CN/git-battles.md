@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "使用 Git 进行发布"
 date: 2025-07-06
 category: journal
@@ -31,7 +31,7 @@ tags:
 
 # 转折点
 
-很明显，我需要一个清楚而且可重复的计划。于是我坐下来写了一份[分支策略](https://db4e.osoyalce.com/pages/Git-Branching-Strategy.html)：main 用于稳定发布，dev 用于集成，feature 分支用于新功能，release 分支用于发布前准备，bugfix 分支从 main 创建。不只是宏观说明，我还写下了需要的*每一条*命令。老实说，目前大概完善了 95%。
+很明显，我需要一个清楚而且可重复的计划。于是我坐下来写了一份[分支策略]({% link pages/git-battles/Git-Branching-Strategy.md %})：main 用于稳定发布，dev 用于集成，feature 分支用于新功能，release 分支用于发布前准备，bugfix 分支从 main 创建。不只是宏观说明，我还写下了需要的*每一条*命令。老实说，目前大概完善了 95%。
 
 我不只在仓库里记录流程，还把它放进项目外部的知识库。关键原因在于：当我切换分支、更新仓库内的文档时，发布说明本身也会跟着改变。这简直像照着一张每走几步就重新绘制的地图前进。保留一份稳定的外部文档，真的拯救了我的理智。
 

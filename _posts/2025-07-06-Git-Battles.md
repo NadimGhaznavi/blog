@@ -8,7 +8,7 @@ category: journal
 tags: 
   - Git
   - Db4E
-layout: posts
+layout: single
 ---
 
 Let me be honest: Git has punched me in the face more times than I can count. Every time I think I’ve got a smooth release flow down, Git yells, “Not so fast!” and two quick jabs, a left hook an uppercut and I'm on the mat wondering what happened: Branches out of sync, conflicts popping up like whack-a-moles, version numbers that look more like lottery tickets… it’s been a mess.
@@ -29,7 +29,7 @@ I'm a systems architect, I really and truly appreciate the value of Git and all 
 
 # The Turning Point
 
-It became obvious, that I needed a plan—something clear and repeatable. So I sat down and wrote out a [branching strategy](https://db4e.osoyalce.com/pages/Git-Branching-Strategy.html): main for stable releases, dev for integration, feature branches for new work, release branches for final prep, and bugfix branches off main. It's not just high level, it has *every* command I needed. To be honest, it's about 95% there.
+It became obvious, that I needed a plan—something clear and repeatable. So I sat down and wrote out a [branching strategy]({% link pages/git-battles/Git-Branching-Strategy.md %}): main for stable releases, dev for integration, feature branches for new work, release branches for final prep, and bugfix branches off main. It's not just high level, it has *every* command I needed. To be honest, it's about 95% there.
 
 I documented this process, not just in the repo, but also in my knowledge base outside the project. My advice: Don't document release management if documenting release management means performing releases... just don't.
 
@@ -67,3 +67,9 @@ And don't be shy, have a Git veteran by your side as you step through the proces
 Git will probably keep punching me, but I’m no longer running scared. I’ve got a plan, a process, and a **sense** of control. If you’re struggling too, stick with it—there’s a light at the end of the Git tunnel, and it’s worth the fight.
 
 Got your own Git war stories? I’d love to hear them.
+
+---
+
+# Follow Up
+
+Here's another, more recent [Git post]({% post_url 2026-10-21-Git-Automation %}) where I automated this process.

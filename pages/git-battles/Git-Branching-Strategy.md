@@ -4,6 +4,7 @@ layout: single
 permalink: /journal/git-battles/branching-strategy/
 lang: en
 language_name: English
+translation_key: git-branching-strategy
 toc: true
 ---
 

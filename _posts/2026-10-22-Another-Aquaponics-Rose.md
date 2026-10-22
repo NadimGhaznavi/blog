@@ -12,9 +12,9 @@ tags:
 - Rose
 ---
 
-![Aquaponics Rose](/images/2026-10-22-rose.gif)
-
 My little basement aquaponics setup has given me another miniature rose!!!
+
+![Aquaponics Rose](/images/2026-10-22-rose.gif)
 
 Here's a picture of the setup.
 

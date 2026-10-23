@@ -1,4 +1,6 @@
 ---
+layout: single
+author_profile: true
 title: "Переклад українською"
 date: 2026-10-23
 lang: uk

@@ -1,4 +1,6 @@
 ---
+layout: single
+author_profile: true
 title: "乌克兰语翻译"
 date: 2026-10-23
 lang: zh-CN

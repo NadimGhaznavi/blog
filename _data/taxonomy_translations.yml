@@ -1,0 +1,42 @@
+# Optional display labels for canonical post tags and categories.
+# The keys must match front matter exactly (including capitalization).
+# Translation changes text only: matching, counts, URL fragments and links
+# continue to use the canonical tags/categories.
+zh-CN:
+  categories:
+    journal: "日志"
+  tags:
+    "Aquaponics": "鱼菜共生"
+    "Art": "艺术"
+    "Automation": "自动化"
+    "Blog": "博客"
+    "Class Diagrams": "类图"
+    "Constants": "常量"
+    "Food": "美食"
+    "FOREX": "外汇交易"
+    "Guppies": "孔雀鱼"
+    "GitHub pages": "GitHub Pages"
+    "Local AI": "本地 AI"
+    "Media Management": "媒体资料管理"
+    "Metadata": "元数据"
+    "Movie reviews": "电影评论"
+    "Painting": "绘画"
+    "Power Grid Modeling Data Science": "电网建模数据科学"
+    "Programming": "编程"
+    "Project Description": "项目介绍"
+    "Release Management": "发布管理"
+    "Rose": "玫瑰"
+    "Roses": "玫瑰花"
+    "Self-Hosted": "自托管"
+    "Simulation": "仿真"
+    "Storefront": "网店"
+    "dynamic-dns": "动态 DNS"
+    "dns": "DNS"
+    "geoip": "GeoIP"
+    "godaddy": "GoDaddy"
+    "homelab": "家庭实验室"
+    "ip-geolocation": "IP 地理定位"
+    "jekyll": "Jekyll"
+    "mariadb": "MariaDB"
+    "racoon tiger shrimp": "浣熊虎虾"
+    "self-hosted": "自托管"

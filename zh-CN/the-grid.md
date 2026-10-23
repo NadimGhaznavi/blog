@@ -11,7 +11,8 @@ permalink: /zh-CN/journal/the-grid/
 tags:
   - pgm-ds
   - Power Grid Modeling Data Science
-  - Simulation---
+  - Simulation
+---
 
 一位潜在客户向我推荐了一篇文章：[通过快速灵活的网络模拟推动能源转型](https://lfenergy.org/empowering-the-energy-transition-through-fast-and-flexible-network-simulation/)。文章介绍了一个开源项目 [Power Grid Model DS](https://power-grid-model-ds.readthedocs.io/en/stable/)（`pgm-ds`），其中 *DS* 代表 *Data Science*（数据科学）。
 

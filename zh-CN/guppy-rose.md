@@ -11,7 +11,8 @@ permalink: /zh-CN/journal/guppy-rose/
 tags:
   - Aquaponics
   - Guppies
-  - Roses---
+  - Roses
+---
 
 # 一朵玫瑰花苞、几条孔雀鱼，还有一个安静的小生态系统
 

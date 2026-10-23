@@ -10,7 +10,6 @@ tags:
   - AI
   - FOREX
   - Textual
-layout: posts
 permalink: /uk/journal/hello-ai-fx/
 ---
 

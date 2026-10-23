@@ -13,7 +13,8 @@ tags:
   - Translation
   - Website Analytics
   - Marketing
-layout: posts
+layout: single
+author_profile: true
 ---
 
 Нещодавно я створив [MyCount](https://mycount.osoyalce.com), щоб відстежувати відвідувачів сайтів моїх проєктів. Виявилося, що понад 40% відвідувачів походили з Китаю, а 35% із них користувалися браузерами з китайською мовою інтерфейсу.

@@ -13,7 +13,8 @@ tags:
   - BMDynIP
   - Website Analytics
   - Marketing
-layout: posts
+layout: single
+author_profile: true
 ---
 
 Я задумав майбутній проєкт, для якого знадобиться служба *динамічного DNS*. Для цього створив [BMDynIP](https://bmdynip.osoyalce.com). Після розробки служби мені захотілося зробити простий застосунок для її випробування. І тут я подумав: **аналітика відвідувачів вебсайту!!!** Мене давно не влаштовували можливості сторонніх сервісів. Тож я створив [MyCount](https://mycount.osoyalce.com).

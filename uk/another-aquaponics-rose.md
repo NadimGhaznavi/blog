@@ -11,7 +11,7 @@ tags:
   - Blog
   - Aquaponics
   - Rose
-layout: posts
+layout: single
 ---
 
 Моя невеличка аквапонічна система в підвалі подарувала мені ще одну мініатюрну троянду!!!

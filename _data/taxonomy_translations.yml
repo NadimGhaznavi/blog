@@ -45,6 +45,7 @@ uk:
   categories:
     "journal": "Щоденник"
   tags:
+    "AI": "ШІ"
     "Aquaponics": "Аквапоніка"
     "Art": "Мистецтво"
     "Automation": "Автоматизація"
@@ -56,6 +57,7 @@ uk:
     "Guppies": "Гупі"
     "GitHub pages": "GitHub Pages"
     "Local AI": "Локальний ШІ"
+    "Marketing": "Маркетинг"
     "Media Management": "Керування медіатекою"
     "Metadata": "Метадані"
     "Movie reviews": "Огляди фільмів"
@@ -68,7 +70,11 @@ uk:
     "Roses": "Троянди"
     "Self-Hosted": "Власний хостинг"
     "Simulation": "Симуляція"
+    "SMART monitoring": "Моніторинг SMART"
     "Storefront": "Інтернет-магазин"
+    "Translation": "Переклад"
+    "Website Analytics": "Вебаналітика"
+    "data replication": "Реплікація даних"
     "dynamic-dns": "Динамічний DNS"
     "dns": "DNS"
     "geoip": "GeoIP"

@@ -17,19 +17,19 @@ toc: true
 
   <pre class="mermaid">
     gitGraph
-    commit id: "Current release" tag: "v1.2.3"
+    commit id: "Поточний випуск" tag: "v1.2.3"
     branch dev
     checkout dev
-    commit id: "Development"
+    commit id: "Розробка"
     branch feature/foo
     checkout feature/foo
-    commit id: "Add foo feature"
-    commit id: "Add foo tests"
+    commit id: "Додати функцію foo"
+    commit id: "Додати тести foo"
     checkout dev
     merge feature/foo
     branch release/v1.3.0
     checkout release/v1.3.0
-    commit id: "Prepare v1.3.0"
+    commit id: "Підготувати v1.3.0"
     checkout main
     merge release/v1.3.0 tag: "v1.3.0"
     checkout dev

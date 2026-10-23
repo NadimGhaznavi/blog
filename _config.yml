@@ -137,6 +137,20 @@ author:
     - label: "My Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.osoyalce.com/"
+  translations:
+    zh-CN:
+      # TODO: Translate these author profile placeholders into Simplified Chinese.
+      name: "Nadim-Daniel Ghaznavi"
+      bio: "Creator"
+      location: "Hamilton, ON"
+      home: /zh-CN/
+      links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/NadimGhaznavi"
+        - label: "My Website"
+          icon: "fas fa-fw fa-link"
+          url: "https://www.osoyalce.com/"
       
 # Site Footer
 footer:

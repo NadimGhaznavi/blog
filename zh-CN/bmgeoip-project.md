@@ -13,7 +13,8 @@ tags:
   - ip-geolocation
   - mariadb
   - self-hosted
-  - homelab---
+  - homelab
+---
 
 [Bear & Moose GeoIP 项目](https://bmgeoip.osoyalce.com)为应用程序提供易用的 GeoIP 服务，同时支持交互式查询。
 

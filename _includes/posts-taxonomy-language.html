@@ -1,0 +1,55 @@
+{%- assign locale = include.locale | default: page.locale | default: site.locale -%}
+{%- assign default_lang = site.multilingual.default_lang | default: 'en' -%}
+{%- assign current_lang = page.lang | default: default_lang | replace: '_', '-' | downcase -%}
+{%- assign taxonomy_field = include.taxonomy_field -%}
+{%- assign candidates = site.posts | concat: site.pages -%}
+{%- assign archive_entries = '' | split: ',' -%}
+{%- assign taxonomy_names = '' | split: ',' -%}
+{%- for entry in candidates -%}
+  {%- assign entry_lang = entry.lang | default: default_lang | replace: '_', '-' | downcase -%}
+  {%- if entry_lang != current_lang or entry.hidden == true -%}{%- continue -%}{%- endif -%}
+  {%- unless entry.date -%}{%- continue -%}{%- endunless -%}
+  {%- assign archive_entries = archive_entries | push: entry -%}
+  {%- assign entry_terms = entry[taxonomy_field] -%}
+  {%- if entry_terms -%}
+    {%- assign taxonomy_names = taxonomy_names | concat: entry_terms -%}
+  {%- elsif taxonomy_field == 'categories' and entry.category -%}
+    {%- assign taxonomy_names = taxonomy_names | push: entry.category -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign archive_entries = archive_entries | sort: 'date' | reverse -%}
+{%- assign taxonomy_names = taxonomy_names | uniq | sort_natural -%}
+{%- assign entries_layout = page.entries_layout | default: 'list' -%}
+{%- assign items_max = archive_entries.size -%}
+{%- capture taxonomy_index -%}
+{%- endcapture -%}
+{%- capture taxonomy_sections -%}
+{%- endcapture -%}
+{%- for count in (1..items_max) reversed -%}
+  {%- for taxonomy_name in taxonomy_names -%}
+    {%- if taxonomy_field == 'categories' -%}
+      {%- assign taxonomy_entries = archive_entries | where_exp: 'entry', 'entry.categories contains taxonomy_name or entry.category == taxonomy_name' -%}
+    {%- else -%}
+      {%- assign taxonomy_entries = archive_entries | where_exp: 'entry', 'entry.tags contains taxonomy_name' -%}
+    {%- endif -%}
+    {%- if taxonomy_entries.size != count -%}{%- continue -%}{%- endif -%}
+    {%- capture index_item -%}
+      <li><a href="#{{ taxonomy_name | slugify }}"><strong>{{ taxonomy_name }}</strong> <span class="taxonomy__count">{{ count }}</span></a></li>
+    {%- endcapture -%}
+    {%- assign taxonomy_index = taxonomy_index | append: index_item -%}
+    {%- capture section -%}
+      <section id="{{ taxonomy_name | slugify }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ taxonomy_name }}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {%- for post in taxonomy_entries -%}
+            {% include archive-single.html locale=locale type=entries_layout %}
+          {%- endfor -%}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {%- endcapture -%}
+    {%- assign taxonomy_sections = taxonomy_sections | append: section -%}
+  {%- endfor -%}
+{%- endfor -%}
+<ul class="taxonomy__index">{{ taxonomy_index }}</ul>
+{{ taxonomy_sections }}

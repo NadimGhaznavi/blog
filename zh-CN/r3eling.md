@@ -16,7 +16,8 @@ tags:
   - Automation
   - Python
   - TMDB
-  - Self-Hosted---
+  - Self-Hosted
+---
 
 我小时候家里第一台电视是个小小的黑白电视机，偶尔能看到《动物王国》。后来有了 Betamax 和 VHS 录像带，人们可以在家看节目了！再后来是 DVD。
 

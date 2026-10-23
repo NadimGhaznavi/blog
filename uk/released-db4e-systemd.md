@@ -10,7 +10,7 @@ tags:
   - Python
   - systemd
 layout: posts
-permalink: /uk/Python/released-db4e-systemd/
+permalink: /uk/journal/released-db4e-systemd/
 ---
 
 Нещодавно я опублікував на PyPI та GitHub невеликий модуль Python: [`db4e-systemd`](https://pypi.org/project/db4e-systemd/). Це легка обгортка над `systemctl`, яка дозволяє керувати службами (запускати, зупиняти, вмикати, вимикати й перевіряти їхній стан) безпосередньо з Python, використовуючи простий і лаконічний код.

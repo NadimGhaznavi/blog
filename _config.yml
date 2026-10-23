@@ -139,16 +139,15 @@ author:
       url: "https://www.osoyalce.com/"
   translations:
     zh-CN:
-      # TODO: Translate these author profile placeholders into Simplified Chinese.
       name: "Nadim-Daniel Ghaznavi"
-      bio: "Creator"
-      location: "Hamilton, ON"
+      bio: "创作者"
+      location: "加拿大安大略省汉密尔顿"
       home: /zh-CN/
       links:
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/NadimGhaznavi"
-        - label: "My Website"
+        - label: "我的个人网站"
           icon: "fas fa-fw fa-link"
           url: "https://www.osoyalce.com/"
       

@@ -11,7 +11,8 @@ permalink: /zh-CN/journal/delphi-in-a-day/
 tags:
   - Delphi
   - Programming
-  - Windows---
+  - Windows
+---
 
 我有一位潜在客户，经营着几家科技公司，其中至少一家使用 Delphi 编程语言与客户系统集成。他对我说的一句话是：“去学 Delphi！”
 

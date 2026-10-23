@@ -138,6 +138,18 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://www.osoyalce.com/"
   translations:
+    uk:
+      name: "Nadim-Daniel Ghaznavi"
+      bio: "Автор"
+      location: "Гамільтон, Онтаріо, Канада"
+      home: /uk/
+      links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/NadimGhaznavi"
+        - label: "Мій вебсайт"
+          icon: "fas fa-fw fa-link"
+          url: "https://www.osoyalce.com/"
     zh-CN:
       name: "Nadim-Daniel Ghaznavi"
       bio: "创作者"

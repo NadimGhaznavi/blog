@@ -2,15 +2,19 @@
 layout: archive
 ---
 
+{% assign default_lang = site.multilingual.default_lang | default: 'en' %}
+{% assign current_lang = page.lang | default: default_lang %}
+{% assign current_locale = page.locale | default: site.locale %}
+
 {{ content }}
 
-{% if page.lang == "zh-CN" %}
-<h3 class="archive__subtitle">近期文章</h3>
-{% assign translated_posts = site.pages | where: "lang", page.lang | sort: "date" | reverse %}
+{% if site.multilingual.enabled and current_lang != default_lang %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[current_locale].recent_posts | default: "Recent Posts" }}</h3>
+{% assign translated_posts = site.pages | where: "lang", current_lang | sort: "date" | reverse %}
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }} home-posts">
   {% for post in translated_posts %}
-    {% if post.translation_key and post.translation_key != 'blog-home' and post.date %}
+    {% if post.translation_key and post.translation_key != 'blog-home' and post.date and post.hidden != true %}
       {% include archive-single.html type=entries_layout %}
     {% endif %}
   {% endfor %}

@@ -27,11 +27,15 @@
 {%- endcapture -%}
 {%- for count in (1..items_max) reversed -%}
   {%- for taxonomy_name in taxonomy_names -%}
-    {%- if taxonomy_field == 'categories' -%}
-      {%- assign taxonomy_entries = archive_entries | where_exp: 'entry', 'entry.categories contains taxonomy_name or entry.category == taxonomy_name' -%}
-    {%- else -%}
-      {%- assign taxonomy_entries = archive_entries | where_exp: 'entry', 'entry.tags contains taxonomy_name' -%}
-    {%- endif -%}
+    {%- assign taxonomy_entries = '' | split: ',' -%}
+    {%- for entry in archive_entries -%}
+      {%- assign entry_terms = entry[taxonomy_field] -%}
+      {%- if entry_terms contains taxonomy_name -%}
+        {%- assign taxonomy_entries = taxonomy_entries | push: entry -%}
+      {%- elsif taxonomy_field == 'categories' and entry.category == taxonomy_name -%}
+        {%- assign taxonomy_entries = taxonomy_entries | push: entry -%}
+      {%- endif -%}
+    {%- endfor -%}
     {%- if taxonomy_entries.size != count -%}{%- continue -%}{%- endif -%}
     {%- capture index_item -%}
       <li><a href="#{{ taxonomy_name | slugify }}"><strong>{{ taxonomy_name }}</strong> <span class="taxonomy__count">{{ count }}</span></a></li>

@@ -13,7 +13,8 @@ tags:
   - LLM
   - Qwen
   - llama.cpp
-  - GGUF---
+  - GGUF
+---
 
 [Snake Lab](https://snakelabserver.osoyalce.com) 已经变成一台真正的服务器，拥有 ZeroMQ API、配置验证、数据库，以及不依赖客户端独立运行实验的能力。接下来最自然的问题就是：
 

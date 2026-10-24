@@ -10,6 +10,7 @@ tags:
 - Blog
 - Minimal-Mistakes
 - Translation
+- AI Translation
 - Website Analytics
 - Marketing
 ---

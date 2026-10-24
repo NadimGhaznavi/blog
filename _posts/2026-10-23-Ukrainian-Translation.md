@@ -10,6 +10,7 @@ tags:
 - Blog
 - Multi-lingual
 - Translation
+- AI Translation
 - Ukraine
 - MyCount
 ---

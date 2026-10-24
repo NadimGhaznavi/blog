@@ -1,6 +1,7 @@
 /* Blog visual refresh: overrides for Minimal Mistakes dark skin.
    Kept separate from the remote theme so GitHub Pages can serve it as-is. */
 :root {
+  --blog-max-width: 1600px;
   --blog-bg: #101820;
   --blog-panel: #192631;
   --blog-panel-hover: #203140;
@@ -29,7 +30,7 @@ a:focus-visible, button:focus-visible {
   background: #141f28;
   border-bottom: 1px solid var(--blog-line);
 }
-.masthead__inner-wrap { max-width: 1280px; padding-top: 1rem; padding-bottom: 1rem; }
+.masthead__inner-wrap { max-width: var(--blog-max-width); padding-top: 1rem; padding-bottom: 1rem; }
 .greedy-nav { background: transparent; }
 .greedy-nav a { color: var(--blog-text); }
 .greedy-nav a:hover { color: var(--blog-accent-strong); }
@@ -65,7 +66,8 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid var(--blog-accent-strong);
   outline-offset: 4px;
 }
-#main { max-width: 1280px; padding-top: 2.2rem; }
+#main { max-width: var(--blog-max-width); padding-top: 2.2rem; }
+.page__footer footer { max-width: var(--blog-max-width); }
 .page__title, .archive__subtitle {
   color: #f6f9fb;
   letter-spacing: -.045em;
@@ -108,7 +110,6 @@ a:focus-visible, button:focus-visible {
   margin-top: .6rem;
 }
 .archive__item-excerpt p { margin: 0; }
-.layout--home #main { max-width: 1600px; }
 .home-posts {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -161,12 +162,16 @@ hr { border-color: var(--blog-line); }
   .home-posts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (min-width: 1024px) {
-  .archive, .page { padding-left: 2.3rem; }
-  .layout--home .sidebar { width: 240px; }
-  .layout--home .archive {
+  .sidebar { width: 240px; }
+  .archive, .page, .page__related {
     width: calc(100% - 260px);
+    padding-inline-start: 2.3rem;
+  }
+  /* Keep the author sidebar, and reserve a right column only for a TOC. */
+  .archive, .page:not(.page--with-toc) {
     padding-inline-end: 0;
   }
+  .archive .grid__wrapper { margin-inline-end: 0; }
 }
 @media (max-width: 767px) {
   #main { padding-top: 1.25rem; }

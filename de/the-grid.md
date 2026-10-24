@@ -51,7 +51,7 @@ So hübsch das Bild war, die wirklich aufschlussreichen Daten standen als Tabell
   2  | 10500.0 |     0     |        65        |       61       | 0.0 |385.322..|175.70..
   61 | 10500.0 |     1     |   -2147483648    |  -2147483648   | 0.0 |134.732..|145.515..
 
-## Lines
+## Leitungen
 
   id | from_node | to_node | from_status | to_status | feeder_branch_id | feeder_node_id | is_feeder |   r1  |   x1  |  c1 | tan1 |   i_n   | i_from 
 ----|-----------|---------|-------------|-----------|------------------|----------------|-----------|-------|-------|-----|------|---------|---------
@@ -59,7 +59,7 @@ So hübsch das Bild war, die wirklich aufschlussreichen Daten standen als Tabell
  74 |     20    |    8    |      1      |     1     |        63        |       61       |   False   |0.585..|0.000..| 0.0 | 0.0  |227.694..|  0.0   
  125 |     96    |    94   |      1      |     1     |        63        |       61       |   False   |0.036..|0.04..| 0.0 | 0.0  |362.904..|  0.0   
 
- ## Transformers
+## Transformatoren
 
    id | from_node | to_node | from_status | to_status | feeder_branch_id | feeder_node_id | is_feeder |    u1   |   u2   |     sn     | tap_size |   uk  |    pk    |  i0 |  p0 | winding_from | winding_to | clock | tap_side | tap_pos | tap_min | tap_max | tap_nom
 -----|-----------|---------|-------------|-----------|------------------|----------------|-----------|---------|--------|------------|----------|-------|----------|-----|-----|--------------|------------|-------|----------|---------|---------|---------|----------- 

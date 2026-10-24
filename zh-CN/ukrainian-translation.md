@@ -14,9 +14,10 @@ tags:
   - Multi-lingual
   - Translation
   - Ukraine
+  - MyCount
 ---
 
-我发现有几位来自乌克兰的访客浏览了我的网站！耶！！！太让人兴奋了！:)
+我[注意到](https://mycount.osoyalce.com/)有几位来自乌克兰的访客浏览了我的网站！耶！！！太让人兴奋了！:)
 
 ![乌克兰访客地图](/images/2026-10-23-ukraine-map.png)
 
@@ -28,6 +29,6 @@ tags:
 
 我心系你们。
 
-如果我的技术专长能帮上忙，请随时联系我。
+如果我的[技术专长](https://nadim.ghaznavi.org)能帮上忙，请随时联系我。
 
    — Nadim

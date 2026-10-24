@@ -12,6 +12,7 @@ tags:
   - 博客
   - Minimal-Mistakes
   - 翻译
+  - AI Translation
   - 网站分析
   - 营销
 ---

@@ -6,6 +6,10 @@ zh-CN:
   categories:
     journal: "日志"
   tags:
+    "AI Translation": "AI 翻译"
+    "German": "德语"
+    "Family": "家庭"
+    "Multi-lingual": "多语言"
     "Aquaponics": "鱼菜共生"
     "Art": "艺术"
     "Automation": "自动化"
@@ -45,6 +49,10 @@ uk:
   categories:
     "journal": "Щоденник"
   tags:
+    "AI Translation": "Переклад за допомогою ШІ"
+    "German": "Німецька мова"
+    "Family": "Родина"
+    "Multi-lingual": "Багатомовність"
     "AI": "ШІ"
     "Aquaponics": "Аквапоніка"
     "Art": "Мистецтво"
@@ -91,6 +99,9 @@ de:
     journal: "Tagebuch"
     Python: "Python"
   tags:
+    "AI Translation": "KI-Übersetzung"
+    "German": "Deutsch"
+    "Family": "Familie"
     "AI": "KI"
     "Aquaponics": "Aquaponik"
     "Art": "Kunst"

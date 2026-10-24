@@ -11,9 +11,10 @@ tags:
 - Multi-lingual
 - Translation
 - Ukraine
+- MyCount
 ---
 
-I noticed a couple of Ukrainian visitors to my websites! YAY!!! How exciting! :)
+I [noticed](https://mycount.osoyalce.com/) a couple of Ukrainian visitors to my websites! YAY!!! How exciting! :)
 
 ![Ukrainian Map](/images/2026-10-23-ukraine-map.png)
 
@@ -25,6 +26,6 @@ Here are some random cars:
 
 My thoughts are with you. 
 
-If you can use my technical skillset, please don't hesitate to reach out.
+If you can use my [technical skillset](https://nadim.ghaznavi.org), please don't hesitate to reach out.
 
-   -Nadim
+   -Nadim   

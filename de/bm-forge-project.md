@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "BMForge"
+title: "BMForge-Projekt"
 date: 2026-10-25
 lang: de
 locale: de
@@ -18,11 +18,15 @@ tags:
   - Spec driven
 ---
 
+In diesem Beitrag stelle ich mein neues [BMForge](https://bmforge.osoyalce.com)-Projekt vor.
+
+![BMForge-Logo](/images/2026-10-25-bmforge.png)
+
 Zurzeit verwende ich [Codex](https://openai.com/codex/) mit dem [Sol-6.1-Modell](https://openai.com/index/introducing-gpt-6-1-sol/) von OpenAI als Programmieragenten.
 
 Ich bin begeistert davon. Die Geschwindigkeit, die Qualität des Codes und die schiere Leistungsfähigkeit sind erstaunlich. Es hat meine Art, Software zu entwickeln, grundlegend verändert.
 
-Allerdings gibt es auch Probleme.
+Allerdings gibt es auch einige ernsthafte Probleme.
 
 ## Eigenmächtige Installation von Komponenten
 

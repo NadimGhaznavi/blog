@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "BMForge"
+title: "Проєкт BMForge"
 date: 2026-10-25
 lang: uk
 locale: uk
@@ -18,11 +18,15 @@ tags:
   - Spec driven
 ---
 
+У цій публікації я представляю свій новий проєкт [BMForge](https://bmforge.osoyalce.com).
+
+![Логотип BMForge](/images/2026-10-25-bmforge.png)
+
 Зараз я використовую [Codex](https://openai.com/codex/) з моделлю [Sol 6.1](https://openai.com/index/introducing-gpt-6-1-sol/) від OpenAI як свого агента для програмування.
 
 Мені він дуже подобається. Швидкість, якість коду та неймовірні можливості справді вражають. Він докорінно змінив те, як я розробляю програмне забезпечення.
 
-Але є й проблеми.
+Але є й серйозні проблеми.
 
 ## Самовільне встановлення компонентів
 

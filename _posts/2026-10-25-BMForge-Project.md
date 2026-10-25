@@ -1,5 +1,5 @@
 ---
-title: "BMForge"
+title: "BMForge Project"
 date: 2026-10-25
 lang: en
 language_name: English
@@ -15,11 +15,15 @@ tags:
   - Spec driven
 ---
 
+This post intoduces my new [BMForge](https://bmforge.osoyalce.com) project.
+
+![BMForge Logo](/images/2026-10-25-bmforge.png)
+
 I'm currently using [Codex](https://openai.com/codex/) with OpenAI's [Sol 6.1](https://openai.com/index/introducing-gpt-6-1-sol/) model as my coding agent.
 
 I love it. The speed, the quality of the code, and the sheer capability are amazing. It's fundamentally changed how I develop software.
 
-But there are some problems.
+But there are some serious problems.
 
 ## Ad-Hoc Component Installs
 

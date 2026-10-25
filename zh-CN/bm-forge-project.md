@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "BMForge"
+title: "BMForge 项目"
 date: 2026-10-25
 lang: zh-CN
 locale: zh-CN
@@ -18,11 +18,15 @@ tags:
   - Spec driven
 ---
 
+本文介绍我的新项目 [BMForge](https://bmforge.osoyalce.com)。
+
+![BMForge 标志](/images/2026-10-25-bmforge.png)
+
 目前，我使用 [Codex](https://openai.com/codex/) 作为编程代理，背后运行的是 OpenAI 的 [Sol 6.1](https://openai.com/index/introducing-gpt-6-1-sol/) 模型。
 
 我非常喜欢它。开发速度、代码质量以及它展现出的能力都令人惊叹。它从根本上改变了我开发软件的方式。
 
-但也存在一些问题。
+但也存在一些严重的问题。
 
 ## 擅自引入组件
 

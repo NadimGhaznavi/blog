@@ -11,29 +11,29 @@
 <rect x="62" y="207" width="316" height="8" rx="3" fill="#f4ad57"/>
 <text x="84" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Especificaciones</text>
 <circle cx="92" cy="310" r="4.5" fill="#f4ad57"/>
-<text x="107" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Comportamiento e interfaces</text>
+<text x="107" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Comportamiento e interfaces</text>
 <circle cx="92" cy="352" r="4.5" fill="#f4ad57"/>
-<text x="107" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Módulos y restricciones</text>
+<text x="107" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Módulos y restricciones</text>
 <circle cx="92" cy="394" r="4.5" fill="#f4ad57"/>
-<text x="107" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Pruebas y versiones</text>
+<text x="107" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Pruebas y versiones</text>
 <rect x="440" y="205" width="320" height="220" rx="20" fill="#182941" stroke="#3c5770" stroke-width="2"/>
 <rect x="442" y="207" width="316" height="8" rx="3" fill="#63c2e4"/>
 <text x="464" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Procesos</text>
 <circle cx="472" cy="310" r="4.5" fill="#63c2e4"/>
-<text x="487" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Inicio y estructura del proyecto</text>
+<text x="487" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Inicio y estructura del proyecto</text>
 <circle cx="472" cy="352" r="4.5" fill="#63c2e4"/>
-<text x="487" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Versiones, mejoras y despliegue</text>
+<text x="487" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Versiones, mejoras y despliegue</text>
 <circle cx="472" cy="394" r="4.5" fill="#63c2e4"/>
-<text x="487" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Procedimientos operativos</text>
+<text x="487" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Procedimientos operativos</text>
 <rect x="820" y="205" width="320" height="220" rx="20" fill="#182941" stroke="#3c5770" stroke-width="2"/>
 <rect x="822" y="207" width="316" height="8" rx="3" fill="#80d9ac"/>
 <text x="844" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Pila de software</text>
 <circle cx="852" cy="310" r="4.5" fill="#80d9ac"/>
-<text x="867" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Base de datos · HTTP · ZeroMQ</text>
+<text x="867" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Base de datos · HTTP · ZeroMQ</text>
 <circle cx="852" cy="352" r="4.5" fill="#80d9ac"/>
-<text x="867" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Configuración · Localización</text>
+<text x="867" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Configuración · Localización</text>
 <circle cx="852" cy="394" r="4.5" fill="#80d9ac"/>
-<text x="867" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Visualización · Componentes</text>
+<text x="867" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Visualización · Componentes</text>
 <path d="M220 425 V458 M600 425 V458 M980 425 V458" stroke="#67cfe7" stroke-width="3" stroke-dasharray="4 7"/>
 <rect x="60" y="462" width="1080" height="110" rx="18" fill="#173448" stroke="#48b7d6" stroke-width="2"/>
 <rect x="83" y="490" width="55" height="55" rx="13" fill="#20637b"/><path d="M96 517 L108 505 L120 517 L108 529 Z" stroke="#b9f4fb" fill="none" stroke-width="3"/>
@@ -44,10 +44,10 @@
 <rect x="620" y="629" width="520" height="131" rx="17" fill="#342c28" stroke="#df9b66" stroke-width="2"/>
 <text x="84" y="667" fill="#a7f3ce" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">Nueva aplicación</text>
 <text x="84" y="706" fill="#eff8f1" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="450" text-anchor="start">Implementación independiente</text>
-<text x="84" y="736" fill="#b9e0d0" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Sin dependencia de BMForge en ejecución</text>
+<text x="84" y="736" fill="#b9e0d0" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Sin dependencia de BMForge en ejecución</text>
 <text x="646" y="667" fill="#ffc995" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">Trazabilidad y mejora continua</text>
-<text x="646" y="706" fill="#f2e8da" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">Los errores mejoran código y normas</text>
-<text x="646" y="736" fill="#f2d3b5" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">El siguiente proyecto se beneficia</text>
+<text x="646" y="706" fill="#f2e8da" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">Los errores mejoran código y normas</text>
+<text x="646" y="736" fill="#f2d3b5" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">El siguiente proyecto se beneficia</text>
 <path d="M580 694 H611" stroke="#67cfe7" stroke-width="3" marker-end="url(#arr)"/>
 <text x="70" y="804" fill="#9eafc3" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Especificaciones y componentes versionados; conocimiento que regresa</text>
 </svg>

@@ -11,29 +11,29 @@
 <rect x="62" y="207" width="316" height="8" rx="3" fill="#f4ad57"/>
 <text x="84" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">规范</text>
 <circle cx="92" cy="310" r="4.5" fill="#f4ad57"/>
-<text x="107" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">行为与接口契约</text>
+<text x="107" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">行为与接口契约</text>
 <circle cx="92" cy="352" r="4.5" fill="#f4ad57"/>
-<text x="107" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">允许的模块与约束</text>
+<text x="107" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">允许的模块与约束</text>
 <circle cx="92" cy="394" r="4.5" fill="#f4ad57"/>
-<text x="107" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">测试要求和版本</text>
+<text x="107" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">测试要求和版本</text>
 <rect x="440" y="205" width="320" height="220" rx="20" fill="#182941" stroke="#3c5770" stroke-width="2"/>
 <rect x="442" y="207" width="316" height="8" rx="3" fill="#63c2e4"/>
 <text x="464" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">流程</text>
 <circle cx="472" cy="310" r="4.5" fill="#63c2e4"/>
-<text x="487" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">项目初始化与目录结构</text>
+<text x="487" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">项目初始化与目录结构</text>
 <circle cx="472" cy="352" r="4.5" fill="#63c2e4"/>
-<text x="487" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">发布、升级和部署</text>
+<text x="487" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">发布、升级和部署</text>
 <circle cx="472" cy="394" r="4.5" fill="#63c2e4"/>
-<text x="487" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">运维操作手册</text>
+<text x="487" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">运维操作手册</text>
 <rect x="820" y="205" width="320" height="220" rx="20" fill="#182941" stroke="#3c5770" stroke-width="2"/>
 <rect x="822" y="207" width="316" height="8" rx="3" fill="#80d9ac"/>
 <text x="844" y="263" fill="#f6f9fc" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">软件技术栈</text>
 <circle cx="852" cy="310" r="4.5" fill="#80d9ac"/>
-<text x="867" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">数据库 · HTTP · ZeroMQ</text>
+<text x="867" y="318" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">数据库 · HTTP · ZeroMQ</text>
 <circle cx="852" cy="352" r="4.5" fill="#80d9ac"/>
-<text x="867" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">配置 · 本地化</text>
+<text x="867" y="360" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">配置 · 本地化</text>
 <circle cx="852" cy="394" r="4.5" fill="#80d9ac"/>
-<text x="867" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">可视化与可复用代码</text>
+<text x="867" y="402" fill="#cbd9e7" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">可视化与可复用代码</text>
 <path d="M220 425 V458 M600 425 V458 M980 425 V458" stroke="#67cfe7" stroke-width="3" stroke-dasharray="4 7"/>
 <rect x="60" y="462" width="1080" height="110" rx="18" fill="#173448" stroke="#48b7d6" stroke-width="2"/>
 <rect x="83" y="490" width="55" height="55" rx="13" fill="#20637b"/><path d="M96 517 L108 505 L120 517 L108 529 Z" stroke="#b9f4fb" fill="none" stroke-width="3"/>
@@ -44,10 +44,10 @@
 <rect x="620" y="629" width="520" height="131" rx="17" fill="#342c28" stroke="#df9b66" stroke-width="2"/>
 <text x="84" y="667" fill="#a7f3ce" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">新应用</text>
 <text x="84" y="706" fill="#eff8f1" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="450" text-anchor="start">应用拥有独立实现</text>
-<text x="84" y="736" fill="#b9e0d0" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">运行时不依赖 BMForge</text>
+<text x="84" y="736" fill="#b9e0d0" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">运行时不依赖 BMForge</text>
 <text x="646" y="667" fill="#ffc995" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start">可追溯性与持续改进</text>
-<text x="646" y="706" fill="#f2e8da" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">问题反馈到实现与规范</text>
-<text x="646" y="736" fill="#f2d3b5" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="450" text-anchor="start">让下一个项目受益</text>
+<text x="646" y="706" fill="#f2e8da" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">问题反馈到实现与规范</text>
+<text x="646" y="736" fill="#f2d3b5" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="450" text-anchor="start">让下一个项目受益</text>
 <path d="M580 694 H611" stroke="#67cfe7" stroke-width="3" marker-end="url(#arr)"/>
 <text x="70" y="804" fill="#9eafc3" font-family="'Noto Sans', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">规范与组件经版本管理；经验不断回流</text>
 </svg>

@@ -3,7 +3,7 @@ title: "Aquaponics Distribution Box"
 date: 2026-10-27
 lang: en
 language_name: English
-translation_key: devlog-project
+translation_key: aquaponics-distrib-box
 permalink: /journal/aquaponics-distrib-box/
 category: journal
 tags:

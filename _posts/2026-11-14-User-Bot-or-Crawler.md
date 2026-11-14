@@ -60,7 +60,7 @@ It's not perfect or maybe it is! No, it's not. Some of the numbers are odd: Chec
 
 ![Traffic by Country and Language](/images/2026-11-14-web-traffic-03.png)
 
-When you start analyzing data, sometimes surprising patterns emerge. Check out the IsoForest filtered traffic from South anc Central America. Historically, there has been a significant amount of DDos attacks by bot farms in South America. I'm not being attacked, but you can see there's a lot of activity coming my way.
+When you start analyzing data, sometimes surprising patterns emerge. Check out the IsoForest filtered traffic from South and Central America. Historically, there has been a significant amount of DDos attacks by bot farms in South America. I'm not being attacked, but you can see there's a lot of activity coming my way.
 
 ![South and Central American bots](/images/2026-11-14-web-traffic-04.png)
 

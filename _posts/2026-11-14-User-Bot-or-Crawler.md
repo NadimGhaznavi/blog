@@ -47,7 +47,7 @@ In the end, I realized that my initial expectations were misplaced. There's simp
 - The reported physical locations are spoofed
 - Referrer sites are also spoofed
 
-I did discover SciKit Learn's [IsoForest], which is a data structure that can be used to find anomalies in your data. This turned out to be the most useful.
+I did discover SciKit Learn's [IsoForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html), which is a data structure that can be used to find anomalies in your data. This turned out to be the most useful.
 
 Version	| Date | Change
 --- | --- | ---
@@ -66,7 +66,7 @@ When you start analyzing data, sometimes surprising patterns emerge. Check out t
 
 Africa does not show the same pattern at all.
 
-[African Traffic](/images/2026-11-14-web-traffic-05.png)
+![African Traffic](/images/2026-11-14-web-traffic-05.png)
 
 What does that mean? It's hard to say, I suspect that Africa is lagging with respect to technology and Internet access, but that's just a guess.
 

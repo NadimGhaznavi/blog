@@ -16,11 +16,11 @@ tags:
 
 Almost 90% of my traffic is coming from bots or crawlers! I'm looking at (alleged) *visitors* to the websites under my [osoyalce.com](https://www.osoyalce.com) domain. Some of these visitors are clearly bots, they self identify, but most don't and some actively hide their identity.
 
-When I created [MyCount](https://mycount.osoyalce.com), a website analytics platform, it came from a desire to see if people were looking at my open-source projects, and what kind of volume there was. I launched the MyCount on September 27th, 2026, and have added additional `osoyaolce.com` sites since. Here's a snapshot from when the data collection first started.
+When I created [MyCount](https://mycount.osoyalce.com), a website analytics platform, it came from a desire to see if people were looking at my open-source projects, and what kind of volume there was. I launched MyCount on September 27th, 2026, and have added additional `osoyaolce.com` sites since. Here's a snapshot going back to when data collection first started.
 
 ![Initial Website Traffic](/images/2026-11-14-web-traffic-01.png)
 
-I kind of ignored the data from the first day, when you first set things up, the pipeline can be a bit shakey, right? Or that's what I told myself. Everything looked pretty normal, until November:
+I initially ignored the odd data from the first day. When you first set things up, the pipeline can be a bit shakey, right? Or that's what I told myself. Everything looked pretty normal, until November:
 
 ![Crawler Website Traffic](/images/2026-11-14-web-traffic-02.png)
 
@@ -39,7 +39,7 @@ I changed my backend database schema to make analysis easier.
 
 I thought about integrating AI! I tried it with Qwen 3.5 4B running locally. It was a miserable failure. I'm not even sure that such a small model is capable of dealing with that volume of raw data.
 
-I started researching and discovered that I wasn't alone. This was a widespread issue, it's been around forever, and it's getting worse. [CloudFlare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) even has a section in their docs about it!
+I started researching and discovered that I wasn't alone. This was a widespread issue that's been [linked to ByteDance](https://mashable.com/article/tiktok-parent-company-bytedance-web-crawler-25-times-faster-than-openai). But the larger problem has been around forever, it's just getting worse. [CloudFlare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) even has a section in their docs about it! 
 
 In the end, I realized that my initial expectations were misplaced. There's simply no reliable way to tell if there's a human being on the other end or not. When you drill into the logs, you do see clear patterns of crawlers and bots. But now they seem to be trying to hide??!?
 

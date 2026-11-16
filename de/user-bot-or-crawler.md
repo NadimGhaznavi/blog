@@ -19,11 +19,11 @@ tags:
 
 Fast 90 % meines Traffics stammen von Bots oder Crawlern! Ich untersuche die vermeintlichen *Besucher* der Websites unter meiner Domain [osoyalce.com](https://www.osoyalce.com). Einige dieser Besucher sind ganz offensichtlich Bots und geben sich auch als solche zu erkennen. Die meisten tun das allerdings nicht, und manche verbergen ihre Identität sogar aktiv.
 
-Als ich [MyCount](https://mycount.osoyalce.com), meine Plattform zur Website-Analyse, entwickelte, wollte ich herausfinden, ob sich Menschen meine Open-Source-Projekte ansehen und wie viel Traffic dabei zusammenkommt. Ich habe MyCount am 27. September 2026 gestartet und seitdem weitere Websites unter `osoyalce.com` hinzugefügt. Hier ist ein Schnappschuss vom Beginn der Datenerfassung.
+Als ich [MyCount](https://mycount.osoyalce.com), meine Plattform zur Website-Analyse, entwickelte, wollte ich herausfinden, ob sich Menschen meine Open-Source-Projekte ansehen und wie viel Traffic dabei zusammenkommt. Ich habe MyCount am 27. September 2026 gestartet und seitdem weitere Websites unter `osoyalce.com` hinzugefügt. Hier ist eine Übersicht, die bis zum Beginn der Datenerfassung zurückreicht.
 
 ![Anfänglicher Website-Traffic](/images/2026-11-14-web-traffic-01.png)
 
-Die Daten des ersten Tages habe ich mehr oder weniger ignoriert. Wenn man so etwas gerade erst einrichtet, kann die Datenpipeline doch etwas wackelig sein, oder? Zumindest habe ich mir das eingeredet. Bis zum November sah alles ziemlich normal aus:
+Die auffälligen Daten vom ersten Tag habe ich zunächst ignoriert. Wenn man so etwas gerade erst einrichtet, kann die Datenpipeline doch etwas wackelig sein, oder? Zumindest habe ich mir das eingeredet. Bis zum November sah alles ziemlich normal aus:
 
 ![Website-Traffic durch Crawler](/images/2026-11-14-web-traffic-02.png)
 
@@ -42,7 +42,7 @@ Außerdem habe ich das Schema meiner Backend-Datenbank geändert, um die Analyse
 
 Ich habe sogar überlegt, KI einzubinden! Ich habe es mit einem lokal laufenden Qwen 3.5 4B versucht. Das war ein völliger Fehlschlag. Ich bin mir nicht einmal sicher, ob ein so kleines Modell diese Menge an Rohdaten bewältigen kann.
 
-Also begann ich zu recherchieren und stellte fest, dass ich mit diesem Problem nicht allein bin. Es ist weit verbreitet, existiert schon seit Ewigkeiten und wird immer schlimmer. Selbst [Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) hat einen eigenen Abschnitt dazu in seiner Dokumentation!
+Also begann ich zu recherchieren und stellte fest, dass ich damit nicht allein bin. Das Phänomen war weit verbreitet und wurde [mit ByteDance in Verbindung gebracht](https://mashable.com/article/tiktok-parent-company-bytedance-web-crawler-25-times-faster-than-openai). Das grundlegende Problem gibt es aber schon seit Ewigkeiten, und es wird immer schlimmer. Selbst [Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) hat einen eigenen Abschnitt dazu in seiner Dokumentation!
 
 Schließlich wurde mir klar, dass meine ursprünglichen Erwartungen fehlgeleitet waren. Es gibt schlicht keine zuverlässige Methode, um festzustellen, ob am anderen Ende tatsächlich ein Mensch sitzt. Wenn man die Protokolle genauer untersucht, erkennt man deutliche Muster von Bots und Crawlern. Aber inzwischen scheinen sie zu versuchen, sich zu verstecken?!?
 

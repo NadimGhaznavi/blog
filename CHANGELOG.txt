@@ -7,4 +7,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - "User, Bot, or Crawler" post and translations
 - Translated "Initial FreeIPA rollout"
+- Synced the German, Spanish, Ukrainian, and Simplified Chinese translations of "User, Bot, or Crawler?" with the latest English edits.
 

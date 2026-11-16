@@ -19,11 +19,11 @@ tags:
 
 我的网站流量中，近 90% 竟然来自机器人或爬虫！我一直在研究 [osoyalce.com](https://www.osoyalce.com) 域名下各个网站的所谓*访客*。其中有些显然是机器人，也会主动表明身份，但大多数不会，有些甚至刻意隐藏自己的身份。
 
-我创建网站分析平台 [MyCount](https://mycount.osoyalce.com)，最初只是想看看有没有人在关注我的开源项目，以及访问量究竟有多大。MyCount 于 2026 年 9 月 27 日上线，此后我又陆续接入了更多 `osoyalce.com` 网站。下面是刚开始收集数据时的一张截图。
+我创建网站分析平台 [MyCount](https://mycount.osoyalce.com)，最初只是想看看有没有人在关注我的开源项目，以及访问量究竟有多大。MyCount 于 2026 年 9 月 27 日上线，此后我又陆续接入了更多 `osoyalce.com` 网站。下面这张截图展示了从开始收集数据以来的流量。
 
 ![初期网站流量](/images/2026-11-14-web-traffic-01.png)
 
-第一天的数据我基本没当回事。毕竟系统刚搭起来，数据处理流程偶尔不稳定也很正常，对吧？至少我是这么安慰自己的。直到 11 月之前，一切看起来都挺正常：
+起初我没把第一天那组异常的数据当回事。毕竟系统刚搭起来，数据处理流程偶尔不稳定也很正常，对吧？至少我是这么安慰自己的。直到 11 月之前，一切看起来都挺正常：
 
 ![爬虫网站流量](/images/2026-11-14-web-traffic-02.png)
 
@@ -42,7 +42,7 @@ tags:
 
 我甚至考虑过引入人工智能！我试过在本地运行 Qwen 3.5 4B，结果彻底失败了。我都不确定这么小的模型能否处理如此大量的原始数据。
 
-后来我开始查资料，发现遇到这个问题的远不止我一个人。这是个普遍存在、由来已久，而且越来越严重的问题。[Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) 甚至在文档中专门设了一个章节讨论它！
+后来我开始查资料，发现遇到这个问题的远不止我一个人。这种情况相当普遍，有报道[将它与字节跳动（ByteDance）联系起来](https://mashable.com/article/tiktok-parent-company-bytedance-web-crawler-25-times-faster-than-openai)。从更广的角度看，这个问题由来已久，而且越来越严重。[Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) 甚至在文档中专门设了一个章节讨论它！
 
 最终我意识到，自己最初的预期就不太现实。实际上，根本没有一种可靠的方法能判断连接另一端到底是不是人。深入查看日志时，确实能够发现机器人和爬虫非常明显的行为模式。但现在它们似乎还在设法隐藏自己？！？
 

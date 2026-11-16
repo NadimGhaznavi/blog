@@ -19,11 +19,11 @@ tags:
 
 ¡Casi el 90 % del tráfico que recibo proviene de bots o rastreadores! Estoy analizando a los supuestos *visitantes* de los sitios web de mi dominio [osoyalce.com](https://www.osoyalce.com). Algunos son claramente bots y se identifican como tales, pero la mayoría no lo hace, e incluso hay quienes ocultan activamente su identidad.
 
-Cuando creé [MyCount](https://mycount.osoyalce.com), una plataforma de análisis de sitios web, lo hice porque quería saber si la gente visitaba mis proyectos de código abierto y cuánto tráfico recibían. Puse MyCount en marcha el 27 de septiembre de 2026 y desde entonces he añadido otros sitios de `osoyalce.com`. Esta es una captura de cuando empezó la recopilación de datos.
+Cuando creé [MyCount](https://mycount.osoyalce.com), una plataforma de análisis de sitios web, lo hice porque quería saber si la gente visitaba mis proyectos de código abierto y cuánto tráfico recibían. Puse MyCount en marcha el 27 de septiembre de 2026 y desde entonces he añadido otros sitios de `osoyalce.com`. Esta captura muestra el tráfico desde que empecé a recopilar datos.
 
 ![Tráfico inicial de los sitios web](/images/2026-11-14-web-traffic-01.png)
 
-Más o menos ignoré los datos del primer día. Cuando acabas de poner todo en funcionamiento, la cadena de procesamiento puede fallar un poco, ¿verdad? O al menos eso me decía. Todo parecía bastante normal hasta noviembre:
+Al principio pasé por alto los datos extraños del primer día. Cuando acabas de poner todo en funcionamiento, la cadena de procesamiento puede fallar un poco, ¿verdad? O al menos eso me decía. Todo parecía bastante normal hasta noviembre:
 
 ![Tráfico de rastreadores](/images/2026-11-14-web-traffic-02.png)
 
@@ -42,7 +42,7 @@ También modifiqué el esquema de mi base de datos del servidor para facilitar e
 
 ¡Hasta pensé en integrar inteligencia artificial! Lo intenté con Qwen 3.5 4B ejecutándose localmente. Fue un fracaso rotundo. Ni siquiera estoy seguro de que un modelo tan pequeño pueda manejar semejante volumen de datos sin procesar.
 
-Empecé a investigar y descubrí que no era el único con este problema. Es algo muy extendido, que existe desde hace mucho tiempo y que está empeorando. ¡Incluso [Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) le dedica una sección de su documentación!
+Empecé a investigar y descubrí que no era el único con este problema. Era algo muy extendido y se ha [vinculado con ByteDance](https://mashable.com/article/tiktok-parent-company-bytedance-web-crawler-25-times-faster-than-openai). El problema de fondo viene de lejos y no hace más que empeorar. ¡Incluso [Cloudflare](https://developers.cloudflare.com/bots/additional-configurations/block-ai-bots/) le dedica una sección de su documentación!
 
 Al final comprendí que mis expectativas iniciales no eran realistas. Simplemente no existe una forma fiable de saber si hay una persona al otro lado. Al examinar los registros con detenimiento, sí se observan patrones claros de bots y rastreadores. Pero ¿ahora parece que intentan ocultarse?!?
 
